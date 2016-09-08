@@ -1,0 +1,414 @@
+{
+    "d0": {
+        "keys": [
+            0
+        ]
+    },
+    "ascii": {
+        "types": [
+            0,
+            22
+        ]
+    },
+    "accents": {
+        "types": [
+            1,
+            21
+        ]
+    },
+    "publish": {
+        "types": [
+            2,
+            23
+        ]
+    },
+    "casefold": {
+        "types": [
+            3
+        ]
+    },
+    "lower": {
+        "types": [
+            4
+        ]
+    },
+    "upper": {
+        "types": [
+            5
+        ]
+    },
+    "title": {
+        "types": [
+            6
+        ]
+    },
+    "digit": {
+        "types": [
+            7
+        ]
+    },
+    "fwidth": {
+        "types": [
+            8
+        ]
+    },
+    "hwidth": {
+        "types": [
+            9
+        ]
+    },
+    "hex": {
+        "types": [
+            10,
+            24
+        ]
+    },
+    "nfc": {
+        "types": [
+            11
+        ]
+    },
+    "nfd": {
+        "types": [
+            12
+        ]
+    },
+    "nfkc": {
+        "types": [
+            13
+        ]
+    },
+    "nfkd": {
+        "types": [
+            14
+        ]
+    },
+    "fcd": {
+        "types": [
+            15
+        ]
+    },
+    "fcc": {
+        "types": [
+            16
+        ]
+    },
+    "charname": {
+        "types": [
+            17
+        ]
+    },
+    "npinyin": {
+        "types": [
+            18,
+            25
+        ]
+    },
+    "null": {
+        "types": [
+            19
+        ]
+    },
+    "remove": {
+        "types": [
+            20
+        ]
+    },
+    "s0": {
+        "keys": [
+            1
+        ]
+    },
+    "m0": {
+        "keys": [
+            2
+        ]
+    },
+    "alaloc": {
+        "types": [
+            26
+        ]
+    },
+    "bgn": {
+        "types": [
+            27
+        ]
+    },
+    "buckwalt": {
+        "types": [
+            28
+        ]
+    },
+    "din": {
+        "types": [
+            29
+        ]
+    },
+    "gost": {
+        "types": [
+            30
+        ]
+    },
+    "iso": {
+        "types": [
+            31
+        ]
+    },
+    "mcst": {
+        "types": [
+            32
+        ]
+    },
+    "mns": {
+        "types": [
+            33
+        ]
+    },
+    "satts": {
+        "types": [
+            34
+        ]
+    },
+    "ungegn": {
+        "types": [
+            35
+        ]
+    },
+    "c11": {
+        "types": [
+            36
+        ]
+    },
+    "css": {
+        "types": [
+            37
+        ]
+    },
+    "java": {
+        "types": [
+            38
+        ]
+    },
+    "percent": {
+        "types": [
+            39
+        ]
+    },
+    "perl": {
+        "types": [
+            40
+        ]
+    },
+    "plain": {
+        "types": [
+            41
+        ]
+    },
+    "unicode": {
+        "types": [
+            42
+        ]
+    },
+    "xml": {
+        "types": [
+            43
+        ]
+    },
+    "xml10": {
+        "types": [
+            44
+        ]
+    },
+    "prprname": {
+        "types": [
+            45
+        ]
+    },
+    "i0": {
+        "keys": [
+            3
+        ]
+    },
+    "handwrit": {
+        "types": [
+            46
+        ]
+    },
+    "pinyin": {
+        "types": [
+            47
+        ]
+    },
+    "wubi": {
+        "types": [
+            48
+        ]
+    },
+    "und": {
+        "types": [
+            49,
+            78,
+            79
+        ]
+    },
+    "k0": {
+        "keys": [
+            4
+        ]
+    },
+    "osx": {
+        "types": [
+            50
+        ]
+    },
+    "windows": {
+        "types": [
+            51
+        ]
+    },
+    "chromeos": {
+        "types": [
+            52
+        ]
+    },
+    "android": {
+        "types": [
+            53
+        ]
+    },
+    "googlevk": {
+        "types": [
+            54
+        ]
+    },
+    "101key": {
+        "types": [
+            55
+        ]
+    },
+    "102key": {
+        "types": [
+            56
+        ]
+    },
+    "dvorak": {
+        "types": [
+            57
+        ]
+    },
+    "dvorakl": {
+        "types": [
+            58
+        ]
+    },
+    "dvorakr": {
+        "types": [
+            59
+        ]
+    },
+    "el220": {
+        "types": [
+            60
+        ]
+    },
+    "el319": {
+        "types": [
+            61
+        ]
+    },
+    "extended": {
+        "types": [
+            62
+        ]
+    },
+    "isiri": {
+        "types": [
+            63
+        ]
+    },
+    "nutaaq": {
+        "types": [
+            64
+        ]
+    },
+    "legacy": {
+        "types": [
+            65
+        ]
+    },
+    "lt1205": {
+        "types": [
+            66
+        ]
+    },
+    "lt1582": {
+        "types": [
+            67
+        ]
+    },
+    "patta": {
+        "types": [
+            68
+        ]
+    },
+    "qwerty": {
+        "types": [
+            69
+        ]
+    },
+    "qwertz": {
+        "types": [
+            70
+        ]
+    },
+    "var": {
+        "types": [
+            71
+        ]
+    },
+    "viqr": {
+        "types": [
+            72
+        ]
+    },
+    "ta99": {
+        "types": [
+            73
+        ]
+    },
+    "colemak": {
+        "types": [
+            74
+        ]
+    },
+    "600dpi": {
+        "types": [
+            75
+        ]
+    },
+    "768dpi": {
+        "types": [
+            76
+        ]
+    },
+    "azerty": {
+        "types": [
+            77
+        ]
+    },
+    "t0": {
+        "keys": [
+            5
+        ]
+    },
+    "x0": {
+        "keys": [
+            6
+        ]
+    },
+    "PRIVATE_USE": {
+        "types": [
+            80
+        ]
+    }
+}

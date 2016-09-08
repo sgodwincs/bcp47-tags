@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "target": "es5"
+    },
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "files": [
+        "./fetch_data.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

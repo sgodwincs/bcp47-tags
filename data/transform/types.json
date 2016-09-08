@@ -1,0 +1,416 @@
+[
+    {
+        "name": "ascii",
+        "description": "map as many characters to the closest ASCII character as possible",
+        "since": "29"
+    },
+    {
+        "name": "accents",
+        "description": "map base + punctuation, etc to accented characters",
+        "since": "29"
+    },
+    {
+        "name": "publish",
+        "description": "map to preferred forms for publishing, such as “, ”, —",
+        "since": "29",
+        "alias": "publishing"
+    },
+    {
+        "name": "casefold",
+        "description": "apply Unicode case folding",
+        "since": "29"
+    },
+    {
+        "name": "lower",
+        "description": "apply Unicode full lowercase mapping",
+        "since": "29"
+    },
+    {
+        "name": "upper",
+        "description": "apply Unicode full uppercase mapping",
+        "since": "29"
+    },
+    {
+        "name": "title",
+        "description": "apply Unicode full titlecase mapping",
+        "since": "29"
+    },
+    {
+        "name": "digit",
+        "description": "xxx",
+        "since": "29"
+    },
+    {
+        "name": "fwidth",
+        "description": "map characters to their fullwidth equivalents",
+        "since": "29",
+        "alias": "fullwidth"
+    },
+    {
+        "name": "hwidth",
+        "description": "map characters to their halfwidth equivalents",
+        "since": "29",
+        "alias": "halfwidth"
+    },
+    {
+        "name": "hex",
+        "description": "map characters to a hex equivalents, eg 'a' to '\\u0061'; for hex variants see transform.xml",
+        "since": "29"
+    },
+    {
+        "name": "nfc",
+        "description": "map string to the Unicode NFC format",
+        "since": "29"
+    },
+    {
+        "name": "nfd",
+        "description": "map string to the Unicode NFD format",
+        "since": "29"
+    },
+    {
+        "name": "nfkc",
+        "description": "map string to the Unicode NFKC format",
+        "since": "29"
+    },
+    {
+        "name": "nfkd",
+        "description": "map string to the Unicode NFKD format",
+        "since": "29"
+    },
+    {
+        "name": "fcd",
+        "description": "map string to the FCD format; http://unicode.org/notes/tn5",
+        "since": "29"
+    },
+    {
+        "name": "fcc",
+        "description": "map string to the FCC format; http://unicode.org/notes/tn5",
+        "since": "29"
+    },
+    {
+        "name": "charname",
+        "description": "map each character to its Unicode name",
+        "since": "29",
+        "alias": "name"
+    },
+    {
+        "name": "npinyin",
+        "description": "map pinyin written with tones to the numeric form",
+        "since": "29",
+        "alias": "numericPinyin"
+    },
+    {
+        "name": "null",
+        "description": "make no change in the string",
+        "since": "29"
+    },
+    {
+        "name": "remove",
+        "description": "remove every character in the string",
+        "since": "29"
+    },
+    {
+        "name": "accents",
+        "description": "accented characters to map base + punctuation, etc",
+        "since": "29"
+    },
+    {
+        "name": "ascii",
+        "description": "map from ASCII to the target, perhaps using different conventions",
+        "since": "29"
+    },
+    {
+        "name": "publish",
+        "description": "map publishing characters, such as “, ”, —, to from vanilla characters",
+        "since": "29",
+        "alias": "publishing"
+    },
+    {
+        "name": "hex",
+        "description": "map characters from hex equivalents, trying all variants, eg 'U+0061' to 'a'; for hex variants see transform.xml",
+        "since": "29"
+    },
+    {
+        "name": "npinyin",
+        "description": "map the numeric form of pinyin to the tone format",
+        "since": "29",
+        "alias": "numericPinyin"
+    },
+    {
+        "name": "alaloc",
+        "description": "American Library Association-Library of Congress",
+        "since": "21"
+    },
+    {
+        "name": "bgn",
+        "description": "US Board on Geographic Names",
+        "since": "21"
+    },
+    {
+        "name": "buckwalt",
+        "description": "Buckwalter Arabic transliteration system",
+        "since": "22.1"
+    },
+    {
+        "name": "din",
+        "description": "Deutsches Institut für Normung",
+        "since": "21"
+    },
+    {
+        "name": "gost",
+        "description": "Euro-Asian Council for Standardization, Metrology and Certification",
+        "since": "21"
+    },
+    {
+        "name": "iso",
+        "description": "International Organization for Standardization",
+        "since": "21"
+    },
+    {
+        "name": "mcst",
+        "description": "Korean Ministry of Culture, Sports and Tourism",
+        "since": "21"
+    },
+    {
+        "name": "mns",
+        "description": "Mongolian National Standard",
+        "since": "29"
+    },
+    {
+        "name": "satts",
+        "description": "Standard Arabic Technical Transliteration System (SATTS)",
+        "since": "22.1"
+    },
+    {
+        "name": "ungegn",
+        "description": "United Nations Group of Experts on Geographical Names",
+        "since": "21"
+    },
+    {
+        "name": "c11",
+        "description": "for hex transforms, using the C11 syntax: \\u0061\\U0001F4D6",
+        "since": "29",
+        "alias": "c"
+    },
+    {
+        "name": "css",
+        "description": "for hex transforms, using the CSS syntax: \\61 \\01F4D6, spacing where necessary",
+        "since": "29"
+    },
+    {
+        "name": "java",
+        "description": "for hex transforms, using the Java syntax: \\u0061\\uD83D\\uDCD6",
+        "since": "29"
+    },
+    {
+        "name": "percent",
+        "description": "for hex transforms, using the percent syntax: %61%F0%9F%93%96",
+        "since": "29"
+    },
+    {
+        "name": "perl",
+        "description": "for hex transforms, using the perl syntax: \\x{61}\\x{1F4D6}",
+        "since": "29"
+    },
+    {
+        "name": "plain",
+        "description": "for hex transforms, with no surrounding syntax, spacing where necessary: 0061 1F4D6",
+        "since": "29"
+    },
+    {
+        "name": "unicode",
+        "description": "to hex with the Unicode syntax: U+0061 U+1F4D6, spacing where necessary",
+        "since": "29"
+    },
+    {
+        "name": "xml",
+        "description": "for hex transforms, using the xml syntax: &#x61;&#x1F4D6;",
+        "since": "29"
+    },
+    {
+        "name": "xml10",
+        "description": "for hex transforms, using the xml decimal syntax: &#97;&#128214;",
+        "since": "29"
+    },
+    {
+        "name": "prprname",
+        "description": "transform variant for proper names",
+        "since": "29",
+        "alias": "names"
+    },
+    {
+        "name": "handwrit",
+        "description": "Handwriting input: Used when the only information known (or requested) is that the text was (or is to be) converted using an handwriting input.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "pinyin",
+        "description": "Pinyin input: for simplified Chinese characters. See also http://en.wikipedia.org/wiki/Pinyin_method.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "wubi",
+        "description": "Wubi input: for simplified Chinese characters. For background information, see http://en.wikipedia.org/wiki/Wubi_method",
+        "since": "21.0.2"
+    },
+    {
+        "name": "und",
+        "description": "The choice of input method is not specified. Used when the only information known (or requested) is that the text was (or is to be) converted using an input method engine",
+        "since": "21.0.2"
+    },
+    {
+        "name": "osx",
+        "description": "Mac OSX keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "windows",
+        "description": "Windows keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "chromeos",
+        "description": "ChromeOS keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "android",
+        "description": "Android keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "googlevk",
+        "description": "Google virtual keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "101key",
+        "description": "101 key layout.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "102key",
+        "description": "102 key layout.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "dvorak",
+        "description": "Dvorak keyboard layout. See also http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "dvorakl",
+        "description": "Dvorak left-handed keyboard layout. See also http://en.wikipedia.org/wiki/File:KB_Dvorak_Left.svg.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "dvorakr",
+        "description": "Dvorak right-handed keyboard layout. See also http://en.wikipedia.org/wiki/File:KB_Dvorak_Right.svg.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "el220",
+        "description": "Greek 220 keyboard. See also http://www.microsoft.com/resources/msdn/goglobal/keyboards/kbdhela2.html.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "el319",
+        "description": "Greek 319 keyboard. See also ftp://ftp.software.ibm.com/software/globalization/keyboards/KBD319.pdf.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "extended",
+        "description": "A keyboard that has been enhanced with a large number of extra characters.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "isiri",
+        "description": "Persian ISIRI keyboard. Based on ISIRI 2901:1994 standard. See also http://behdad.org/download/Publications/persiancomputing/a007.pdf.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "nutaaq",
+        "description": "Inuktitut Nutaaq keyboard. See also http://www.pirurvik.ca/en/webfm_send/15.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "legacy",
+        "description": "A keyboard that has been replaced with a newer standard but is kept for legacy purposes.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "lt1205",
+        "description": "Lithuanian standard keyboard, based on the LST 1205:1992 standard. See also http://www.kada.lt/litwin/.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "lt1582",
+        "description": "Lithuanian standard keyboard, based on the LST 1582:2000 standard. See also http://www.kada.lt/litwin/.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "patta",
+        "description": "Thai Pattachote keyboard. This is a less frequently used layout in Thai (Kedmanee layout is more popular). See also http://www.nectec.or.th/it-standards/keyboard_layout/thai-key.htm.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "qwerty",
+        "description": "QWERTY-based keyboard or one that approximates QWERTY in a different script.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "qwertz",
+        "description": "QWERTZ-based keyboard or one that approximates QWERTZ in a different script.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "var",
+        "description": "A keyboard layout with small variations from the default.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "viqr",
+        "description": "Vietnamese VIQR layout, based on http://tools.ietf.org/html/rfc1456.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "ta99",
+        "description": "Tamil 99 keyboard. See also http://www.tamilvu.org/Tamilnet99/annex1.htm.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "colemak",
+        "description": "Colemak keyboard layout. The Colemak keyboard is an alternative to the QWERTY and dvorak keyboards. http://colemak.com/.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "600dpi",
+        "description": "Keyboard for a 600 dpi device.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "768dpi",
+        "description": "Keyboard for a 768 dpi device.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "azerty",
+        "description": "A AZERTY-based keyboard or one that approximates AZERTY in a different script.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "und",
+        "description": "The vender for the keyboard is not specified. Used when the only information known (or requested) is that the text was (or is to be) converted using an keyboard.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "und",
+        "description": "The choice of machine translation is not specified. Used when the only information known (or requested) is that the text was machine translated.",
+        "since": "21.0.2"
+    },
+    {
+        "name": "PRIVATE_USE",
+        "description": "Private use transform identifier. All subfields consistent with rfc6497 (that is, subtags of 3-8 alphanum characters) are valid, and do not require registration.",
+        "since": "21.0.2"
+    }
+]

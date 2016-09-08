@@ -1,0 +1,140 @@
+[
+    {
+        "extension": "t",
+        "name": "d0",
+        "description": "Transform destination for non-languages/scripts.",
+        "since": "29",
+        "types": {
+            "ascii": 0,
+            "accents": 1,
+            "publish": 2,
+            "casefold": 3,
+            "lower": 4,
+            "upper": 5,
+            "title": 6,
+            "digit": 7,
+            "fwidth": 8,
+            "hwidth": 9,
+            "hex": 10,
+            "nfc": 11,
+            "nfd": 12,
+            "nfkc": 13,
+            "nfkd": 14,
+            "fcd": 15,
+            "fcc": 16,
+            "charname": 17,
+            "npinyin": 18,
+            "null": 19,
+            "remove": 20
+        }
+    },
+    {
+        "extension": "t",
+        "name": "s0",
+        "description": "Transform source for non-languages/scripts.",
+        "since": "29",
+        "types": {
+            "accents": 21,
+            "ascii": 22,
+            "publish": 23,
+            "hex": 24,
+            "npinyin": 25
+        }
+    },
+    {
+        "extension": "t",
+        "name": "m0",
+        "description": "Transform extension mechanism:\n\t\t\tto reference an authority or rules for a type of transformation",
+        "since": "21",
+        "types": {
+            "alaloc": 26,
+            "bgn": 27,
+            "buckwalt": 28,
+            "din": 29,
+            "gost": 30,
+            "iso": 31,
+            "mcst": 32,
+            "mns": 33,
+            "satts": 34,
+            "ungegn": 35,
+            "c11": 36,
+            "css": 37,
+            "java": 38,
+            "percent": 39,
+            "perl": 40,
+            "plain": 41,
+            "unicode": 42,
+            "xml": 43,
+            "xml10": 44,
+            "prprname": 45
+        }
+    },
+    {
+        "extension": "t",
+        "name": "i0",
+        "description": "Input Method Engine transform:\n\t\tUsed to indicate an input method transformation, such as one used by\n\t\ta client-side input method. The first subfield in a sequence would\n\t\ttypically be a 'platform' or vendor designation.",
+        "since": "21.0.2",
+        "types": {
+            "handwrit": 46,
+            "pinyin": 47,
+            "wubi": 48,
+            "und": 49
+        }
+    },
+    {
+        "extension": "t",
+        "name": "k0",
+        "description": "Keyboard transform: \n\t\tUsed to indicate a keyboard transformation, such as one used by a client-side virtual keyboard. \n\t\tThe first subfield in a sequence would typically be a 'platform' designation, \n\t\trepresenting the platform that the keyboard is intended for.\n\t\tThe keyboard might or might not correspond to a keyboard mapping shipped by the vendor for the platform.\n\t\tOne or more subsequent fields may occur, but are only added where needed to distinguish from others.",
+        "since": "21.0.2",
+        "types": {
+            "osx": 50,
+            "windows": 51,
+            "chromeos": 52,
+            "android": 53,
+            "googlevk": 54,
+            "101key": 55,
+            "102key": 56,
+            "dvorak": 57,
+            "dvorakl": 58,
+            "dvorakr": 59,
+            "el220": 60,
+            "el319": 61,
+            "extended": 62,
+            "isiri": 63,
+            "nutaaq": 64,
+            "legacy": 65,
+            "lt1205": 66,
+            "lt1582": 67,
+            "patta": 68,
+            "qwerty": 69,
+            "qwertz": 70,
+            "var": 71,
+            "viqr": 72,
+            "ta99": 73,
+            "colemak": 74,
+            "600dpi": 75,
+            "768dpi": 76,
+            "azerty": 77,
+            "und": 78
+        }
+    },
+    {
+        "extension": "t",
+        "name": "t0",
+        "description": "Machine Translation: \n        Used to indicate content that has been machine translated, or a request for a particular type of machine translation of content.\n        The first subfield in a sequence would typically be a 'platform' or vendor designation.",
+        "since": "21.0.2",
+        "types": {
+            "und": 79
+        }
+    },
+    {
+        "extension": "t",
+        "name": "x0",
+        "valueType": "any",
+        "description": "Private use transform type key.",
+        "since": "21.0.2",
+        "types": {
+            "PRIVATE_USE": 80
+        }
+    }
+]

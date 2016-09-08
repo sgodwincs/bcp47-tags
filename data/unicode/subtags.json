@@ -1,0 +1,4700 @@
+{
+    "ca": {
+        "keys": [
+            0
+        ]
+    },
+    "buddhist": {
+        "types": [
+            0
+        ]
+    },
+    "chinese": {
+        "types": [
+            1
+        ]
+    },
+    "coptic": {
+        "types": [
+            2
+        ]
+    },
+    "dangi": {
+        "types": [
+            3
+        ]
+    },
+    "ethioaa": {
+        "types": [
+            4
+        ]
+    },
+    "ethiopic": {
+        "types": [
+            5
+        ]
+    },
+    "gregory": {
+        "types": [
+            6
+        ]
+    },
+    "hebrew": {
+        "types": [
+            7
+        ]
+    },
+    "indian": {
+        "types": [
+            8
+        ]
+    },
+    "islamic": {
+        "types": [
+            9
+        ]
+    },
+    "islamic-umalqura": {
+        "types": [
+            10
+        ]
+    },
+    "islamic-tbla": {
+        "types": [
+            11
+        ]
+    },
+    "islamic-civil": {
+        "types": [
+            12
+        ]
+    },
+    "islamic-rgsa": {
+        "types": [
+            13
+        ]
+    },
+    "iso8601": {
+        "types": [
+            14
+        ]
+    },
+    "japanese": {
+        "types": [
+            15
+        ]
+    },
+    "persian": {
+        "types": [
+            16
+        ]
+    },
+    "roc": {
+        "types": [
+            17
+        ]
+    },
+    "islamicc": {
+        "types": [
+            18
+        ]
+    },
+    "fw": {
+        "keys": [
+            1
+        ]
+    },
+    "sun": {
+        "types": [
+            19
+        ]
+    },
+    "mon": {
+        "types": [
+            20
+        ]
+    },
+    "tue": {
+        "types": [
+            21
+        ]
+    },
+    "wed": {
+        "types": [
+            22
+        ]
+    },
+    "thu": {
+        "types": [
+            23
+        ]
+    },
+    "fri": {
+        "types": [
+            24
+        ]
+    },
+    "sat": {
+        "types": [
+            25
+        ]
+    },
+    "hc": {
+        "keys": [
+            2
+        ]
+    },
+    "h12": {
+        "types": [
+            26
+        ]
+    },
+    "h23": {
+        "types": [
+            27
+        ]
+    },
+    "h11": {
+        "types": [
+            28
+        ]
+    },
+    "h24": {
+        "types": [
+            29
+        ]
+    },
+    "co": {
+        "keys": [
+            3
+        ]
+    },
+    "big5han": {
+        "types": [
+            30
+        ]
+    },
+    "compat": {
+        "types": [
+            31
+        ]
+    },
+    "dict": {
+        "types": [
+            32
+        ]
+    },
+    "direct": {
+        "types": [
+            33
+        ]
+    },
+    "ducet": {
+        "types": [
+            34
+        ]
+    },
+    "emoji": {
+        "types": [
+            35,
+            917
+        ]
+    },
+    "eor": {
+        "types": [
+            36
+        ]
+    },
+    "gb2312": {
+        "types": [
+            37
+        ]
+    },
+    "phonebk": {
+        "types": [
+            38
+        ]
+    },
+    "phonetic": {
+        "types": [
+            39
+        ]
+    },
+    "pinyin": {
+        "types": [
+            40
+        ]
+    },
+    "reformed": {
+        "types": [
+            41
+        ]
+    },
+    "search": {
+        "types": [
+            42
+        ]
+    },
+    "searchjl": {
+        "types": [
+            43
+        ]
+    },
+    "standard": {
+        "types": [
+            44,
+            75,
+            461
+        ]
+    },
+    "stroke": {
+        "types": [
+            45
+        ]
+    },
+    "trad": {
+        "types": [
+            46
+        ]
+    },
+    "unihan": {
+        "types": [
+            47
+        ]
+    },
+    "zhuyin": {
+        "types": [
+            48
+        ]
+    },
+    "ka": {
+        "keys": [
+            4
+        ]
+    },
+    "noignore": {
+        "types": [
+            49
+        ]
+    },
+    "shifted": {
+        "types": [
+            50
+        ]
+    },
+    "kb": {
+        "keys": [
+            5
+        ]
+    },
+    "true": {
+        "types": [
+            51,
+            53,
+            58,
+            60,
+            62
+        ]
+    },
+    "false": {
+        "types": [
+            52,
+            54,
+            57,
+            59,
+            61,
+            63
+        ]
+    },
+    "kc": {
+        "keys": [
+            6
+        ]
+    },
+    "kf": {
+        "keys": [
+            7
+        ]
+    },
+    "upper": {
+        "types": [
+            55
+        ]
+    },
+    "lower": {
+        "types": [
+            56
+        ]
+    },
+    "kh": {
+        "keys": [
+            8
+        ]
+    },
+    "kk": {
+        "keys": [
+            9
+        ]
+    },
+    "kn": {
+        "keys": [
+            10
+        ]
+    },
+    "kr": {
+        "keys": [
+            11
+        ]
+    },
+    "REORDER_CODE": {
+        "types": [
+            64
+        ]
+    },
+    "ks": {
+        "keys": [
+            12
+        ]
+    },
+    "level1": {
+        "types": [
+            65
+        ]
+    },
+    "level2": {
+        "types": [
+            66
+        ]
+    },
+    "level3": {
+        "types": [
+            67
+        ]
+    },
+    "level4": {
+        "types": [
+            68
+        ]
+    },
+    "identic": {
+        "types": [
+            69
+        ]
+    },
+    "kv": {
+        "keys": [
+            13
+        ]
+    },
+    "space": {
+        "types": [
+            70
+        ]
+    },
+    "punct": {
+        "types": [
+            71
+        ]
+    },
+    "symbol": {
+        "types": [
+            72
+        ]
+    },
+    "currency": {
+        "types": [
+            73
+        ]
+    },
+    "vt": {
+        "keys": [
+            14
+        ]
+    },
+    "CODEPOINTS": {
+        "types": [
+            74
+        ]
+    },
+    "cf": {
+        "keys": [
+            15
+        ]
+    },
+    "account": {
+        "types": [
+            76
+        ]
+    },
+    "cu": {
+        "keys": [
+            16
+        ]
+    },
+    "adp": {
+        "types": [
+            77
+        ]
+    },
+    "aed": {
+        "types": [
+            78
+        ]
+    },
+    "afa": {
+        "types": [
+            79
+        ]
+    },
+    "afn": {
+        "types": [
+            80
+        ]
+    },
+    "alk": {
+        "types": [
+            81
+        ]
+    },
+    "all": {
+        "types": [
+            82
+        ]
+    },
+    "amd": {
+        "types": [
+            83
+        ]
+    },
+    "ang": {
+        "types": [
+            84
+        ]
+    },
+    "aoa": {
+        "types": [
+            85
+        ]
+    },
+    "aok": {
+        "types": [
+            86
+        ]
+    },
+    "aon": {
+        "types": [
+            87
+        ]
+    },
+    "aor": {
+        "types": [
+            88
+        ]
+    },
+    "ara": {
+        "types": [
+            89
+        ]
+    },
+    "arl": {
+        "types": [
+            90
+        ]
+    },
+    "arm": {
+        "types": [
+            91
+        ]
+    },
+    "arp": {
+        "types": [
+            92
+        ]
+    },
+    "ars": {
+        "types": [
+            93
+        ]
+    },
+    "ats": {
+        "types": [
+            94
+        ]
+    },
+    "aud": {
+        "types": [
+            95
+        ]
+    },
+    "awg": {
+        "types": [
+            96
+        ]
+    },
+    "azm": {
+        "types": [
+            97
+        ]
+    },
+    "azn": {
+        "types": [
+            98
+        ]
+    },
+    "bad": {
+        "types": [
+            99
+        ]
+    },
+    "bam": {
+        "types": [
+            100
+        ]
+    },
+    "ban": {
+        "types": [
+            101
+        ]
+    },
+    "bbd": {
+        "types": [
+            102
+        ]
+    },
+    "bdt": {
+        "types": [
+            103
+        ]
+    },
+    "bec": {
+        "types": [
+            104
+        ]
+    },
+    "bef": {
+        "types": [
+            105
+        ]
+    },
+    "bel": {
+        "types": [
+            106
+        ]
+    },
+    "bgl": {
+        "types": [
+            107
+        ]
+    },
+    "bgm": {
+        "types": [
+            108
+        ]
+    },
+    "bgn": {
+        "types": [
+            109
+        ]
+    },
+    "bgo": {
+        "types": [
+            110
+        ]
+    },
+    "bhd": {
+        "types": [
+            111
+        ]
+    },
+    "bif": {
+        "types": [
+            112
+        ]
+    },
+    "bmd": {
+        "types": [
+            113
+        ]
+    },
+    "bnd": {
+        "types": [
+            114
+        ]
+    },
+    "bob": {
+        "types": [
+            115
+        ]
+    },
+    "bol": {
+        "types": [
+            116
+        ]
+    },
+    "bop": {
+        "types": [
+            117
+        ]
+    },
+    "bov": {
+        "types": [
+            118
+        ]
+    },
+    "brb": {
+        "types": [
+            119
+        ]
+    },
+    "brc": {
+        "types": [
+            120
+        ]
+    },
+    "bre": {
+        "types": [
+            121
+        ]
+    },
+    "brl": {
+        "types": [
+            122
+        ]
+    },
+    "brn": {
+        "types": [
+            123
+        ]
+    },
+    "brr": {
+        "types": [
+            124
+        ]
+    },
+    "brz": {
+        "types": [
+            125
+        ]
+    },
+    "bsd": {
+        "types": [
+            126
+        ]
+    },
+    "btn": {
+        "types": [
+            127
+        ]
+    },
+    "buk": {
+        "types": [
+            128
+        ]
+    },
+    "bwp": {
+        "types": [
+            129
+        ]
+    },
+    "byb": {
+        "types": [
+            130
+        ]
+    },
+    "byr": {
+        "types": [
+            131
+        ]
+    },
+    "bzd": {
+        "types": [
+            132
+        ]
+    },
+    "cad": {
+        "types": [
+            133
+        ]
+    },
+    "cdf": {
+        "types": [
+            134
+        ]
+    },
+    "che": {
+        "types": [
+            135
+        ]
+    },
+    "chf": {
+        "types": [
+            136
+        ]
+    },
+    "chw": {
+        "types": [
+            137
+        ]
+    },
+    "cle": {
+        "types": [
+            138
+        ]
+    },
+    "clf": {
+        "types": [
+            139
+        ]
+    },
+    "clp": {
+        "types": [
+            140
+        ]
+    },
+    "cnx": {
+        "types": [
+            141
+        ]
+    },
+    "cny": {
+        "types": [
+            142
+        ]
+    },
+    "cop": {
+        "types": [
+            143
+        ]
+    },
+    "cou": {
+        "types": [
+            144
+        ]
+    },
+    "crc": {
+        "types": [
+            145
+        ]
+    },
+    "csd": {
+        "types": [
+            146
+        ]
+    },
+    "csk": {
+        "types": [
+            147
+        ]
+    },
+    "cuc": {
+        "types": [
+            148
+        ]
+    },
+    "cup": {
+        "types": [
+            149
+        ]
+    },
+    "cve": {
+        "types": [
+            150
+        ]
+    },
+    "cyp": {
+        "types": [
+            151
+        ]
+    },
+    "czk": {
+        "types": [
+            152
+        ]
+    },
+    "ddm": {
+        "types": [
+            153
+        ]
+    },
+    "dem": {
+        "types": [
+            154
+        ]
+    },
+    "djf": {
+        "types": [
+            155
+        ]
+    },
+    "dkk": {
+        "types": [
+            156
+        ]
+    },
+    "dop": {
+        "types": [
+            157
+        ]
+    },
+    "dzd": {
+        "types": [
+            158
+        ]
+    },
+    "ecs": {
+        "types": [
+            159
+        ]
+    },
+    "ecv": {
+        "types": [
+            160
+        ]
+    },
+    "eek": {
+        "types": [
+            161
+        ]
+    },
+    "egp": {
+        "types": [
+            162
+        ]
+    },
+    "ern": {
+        "types": [
+            163
+        ]
+    },
+    "esa": {
+        "types": [
+            164
+        ]
+    },
+    "esb": {
+        "types": [
+            165
+        ]
+    },
+    "esp": {
+        "types": [
+            166
+        ]
+    },
+    "etb": {
+        "types": [
+            167
+        ]
+    },
+    "eur": {
+        "types": [
+            168
+        ]
+    },
+    "fim": {
+        "types": [
+            169
+        ]
+    },
+    "fjd": {
+        "types": [
+            170
+        ]
+    },
+    "fkp": {
+        "types": [
+            171
+        ]
+    },
+    "frf": {
+        "types": [
+            172
+        ]
+    },
+    "gbp": {
+        "types": [
+            173
+        ]
+    },
+    "gek": {
+        "types": [
+            174
+        ]
+    },
+    "gel": {
+        "types": [
+            175
+        ]
+    },
+    "ghc": {
+        "types": [
+            176
+        ]
+    },
+    "ghs": {
+        "types": [
+            177
+        ]
+    },
+    "gip": {
+        "types": [
+            178
+        ]
+    },
+    "gmd": {
+        "types": [
+            179
+        ]
+    },
+    "gnf": {
+        "types": [
+            180
+        ]
+    },
+    "gns": {
+        "types": [
+            181
+        ]
+    },
+    "gqe": {
+        "types": [
+            182
+        ]
+    },
+    "grd": {
+        "types": [
+            183
+        ]
+    },
+    "gtq": {
+        "types": [
+            184
+        ]
+    },
+    "gwe": {
+        "types": [
+            185
+        ]
+    },
+    "gwp": {
+        "types": [
+            186
+        ]
+    },
+    "gyd": {
+        "types": [
+            187
+        ]
+    },
+    "hkd": {
+        "types": [
+            188
+        ]
+    },
+    "hnl": {
+        "types": [
+            189
+        ]
+    },
+    "hrd": {
+        "types": [
+            190
+        ]
+    },
+    "hrk": {
+        "types": [
+            191
+        ]
+    },
+    "htg": {
+        "types": [
+            192
+        ]
+    },
+    "huf": {
+        "types": [
+            193
+        ]
+    },
+    "idr": {
+        "types": [
+            194
+        ]
+    },
+    "iep": {
+        "types": [
+            195
+        ]
+    },
+    "ilp": {
+        "types": [
+            196
+        ]
+    },
+    "ilr": {
+        "types": [
+            197
+        ]
+    },
+    "ils": {
+        "types": [
+            198
+        ]
+    },
+    "inr": {
+        "types": [
+            199
+        ]
+    },
+    "iqd": {
+        "types": [
+            200
+        ]
+    },
+    "irr": {
+        "types": [
+            201
+        ]
+    },
+    "isj": {
+        "types": [
+            202
+        ]
+    },
+    "isk": {
+        "types": [
+            203
+        ]
+    },
+    "itl": {
+        "types": [
+            204
+        ]
+    },
+    "jmd": {
+        "types": [
+            205
+        ]
+    },
+    "jod": {
+        "types": [
+            206
+        ]
+    },
+    "jpy": {
+        "types": [
+            207
+        ]
+    },
+    "kes": {
+        "types": [
+            208
+        ]
+    },
+    "kgs": {
+        "types": [
+            209
+        ]
+    },
+    "khr": {
+        "types": [
+            210
+        ]
+    },
+    "kmf": {
+        "types": [
+            211
+        ]
+    },
+    "kpw": {
+        "types": [
+            212
+        ]
+    },
+    "krh": {
+        "types": [
+            213
+        ]
+    },
+    "kro": {
+        "types": [
+            214
+        ]
+    },
+    "krw": {
+        "types": [
+            215
+        ]
+    },
+    "kwd": {
+        "types": [
+            216
+        ]
+    },
+    "kyd": {
+        "types": [
+            217
+        ]
+    },
+    "kzt": {
+        "types": [
+            218
+        ]
+    },
+    "lak": {
+        "types": [
+            219
+        ]
+    },
+    "lbp": {
+        "types": [
+            220
+        ]
+    },
+    "lkr": {
+        "types": [
+            221
+        ]
+    },
+    "lrd": {
+        "types": [
+            222
+        ]
+    },
+    "lsl": {
+        "types": [
+            223
+        ]
+    },
+    "ltl": {
+        "types": [
+            224
+        ]
+    },
+    "ltt": {
+        "types": [
+            225
+        ]
+    },
+    "luc": {
+        "types": [
+            226
+        ]
+    },
+    "luf": {
+        "types": [
+            227
+        ]
+    },
+    "lul": {
+        "types": [
+            228
+        ]
+    },
+    "lvl": {
+        "types": [
+            229
+        ]
+    },
+    "lvr": {
+        "types": [
+            230
+        ]
+    },
+    "lyd": {
+        "types": [
+            231
+        ]
+    },
+    "mad": {
+        "types": [
+            232
+        ]
+    },
+    "maf": {
+        "types": [
+            233
+        ]
+    },
+    "mcf": {
+        "types": [
+            234
+        ]
+    },
+    "mdc": {
+        "types": [
+            235
+        ]
+    },
+    "mdl": {
+        "types": [
+            236
+        ]
+    },
+    "mga": {
+        "types": [
+            237
+        ]
+    },
+    "mgf": {
+        "types": [
+            238
+        ]
+    },
+    "mkd": {
+        "types": [
+            239
+        ]
+    },
+    "mkn": {
+        "types": [
+            240
+        ]
+    },
+    "mlf": {
+        "types": [
+            241
+        ]
+    },
+    "mmk": {
+        "types": [
+            242
+        ]
+    },
+    "mnt": {
+        "types": [
+            243
+        ]
+    },
+    "mop": {
+        "types": [
+            244
+        ]
+    },
+    "mro": {
+        "types": [
+            245
+        ]
+    },
+    "mtl": {
+        "types": [
+            246
+        ]
+    },
+    "mtp": {
+        "types": [
+            247
+        ]
+    },
+    "mur": {
+        "types": [
+            248
+        ]
+    },
+    "mvp": {
+        "types": [
+            249
+        ]
+    },
+    "mvr": {
+        "types": [
+            250
+        ]
+    },
+    "mwk": {
+        "types": [
+            251
+        ]
+    },
+    "mxn": {
+        "types": [
+            252
+        ]
+    },
+    "mxp": {
+        "types": [
+            253
+        ]
+    },
+    "mxv": {
+        "types": [
+            254
+        ]
+    },
+    "myr": {
+        "types": [
+            255
+        ]
+    },
+    "mze": {
+        "types": [
+            256
+        ]
+    },
+    "mzm": {
+        "types": [
+            257
+        ]
+    },
+    "mzn": {
+        "types": [
+            258
+        ]
+    },
+    "nad": {
+        "types": [
+            259
+        ]
+    },
+    "ngn": {
+        "types": [
+            260
+        ]
+    },
+    "nic": {
+        "types": [
+            261
+        ]
+    },
+    "nio": {
+        "types": [
+            262
+        ]
+    },
+    "nlg": {
+        "types": [
+            263
+        ]
+    },
+    "nok": {
+        "types": [
+            264
+        ]
+    },
+    "npr": {
+        "types": [
+            265
+        ]
+    },
+    "nzd": {
+        "types": [
+            266
+        ]
+    },
+    "omr": {
+        "types": [
+            267
+        ]
+    },
+    "pab": {
+        "types": [
+            268
+        ]
+    },
+    "pei": {
+        "types": [
+            269
+        ]
+    },
+    "pen": {
+        "types": [
+            270
+        ]
+    },
+    "pes": {
+        "types": [
+            271
+        ]
+    },
+    "pgk": {
+        "types": [
+            272
+        ]
+    },
+    "php": {
+        "types": [
+            273
+        ]
+    },
+    "pkr": {
+        "types": [
+            274
+        ]
+    },
+    "pln": {
+        "types": [
+            275
+        ]
+    },
+    "plz": {
+        "types": [
+            276
+        ]
+    },
+    "pte": {
+        "types": [
+            277
+        ]
+    },
+    "pyg": {
+        "types": [
+            278
+        ]
+    },
+    "qar": {
+        "types": [
+            279
+        ]
+    },
+    "rhd": {
+        "types": [
+            280
+        ]
+    },
+    "rol": {
+        "types": [
+            281
+        ]
+    },
+    "ron": {
+        "types": [
+            282
+        ]
+    },
+    "rsd": {
+        "types": [
+            283
+        ]
+    },
+    "rub": {
+        "types": [
+            284
+        ]
+    },
+    "rur": {
+        "types": [
+            285
+        ]
+    },
+    "rwf": {
+        "types": [
+            286
+        ]
+    },
+    "sar": {
+        "types": [
+            287
+        ]
+    },
+    "sbd": {
+        "types": [
+            288
+        ]
+    },
+    "scr": {
+        "types": [
+            289
+        ]
+    },
+    "sdd": {
+        "types": [
+            290
+        ]
+    },
+    "sdg": {
+        "types": [
+            291
+        ]
+    },
+    "sdp": {
+        "types": [
+            292
+        ]
+    },
+    "sek": {
+        "types": [
+            293
+        ]
+    },
+    "sgd": {
+        "types": [
+            294
+        ]
+    },
+    "shp": {
+        "types": [
+            295
+        ]
+    },
+    "sit": {
+        "types": [
+            296
+        ]
+    },
+    "skk": {
+        "types": [
+            297
+        ]
+    },
+    "sll": {
+        "types": [
+            298
+        ]
+    },
+    "sos": {
+        "types": [
+            299
+        ]
+    },
+    "srd": {
+        "types": [
+            300
+        ]
+    },
+    "srg": {
+        "types": [
+            301
+        ]
+    },
+    "ssp": {
+        "types": [
+            302
+        ]
+    },
+    "std": {
+        "types": [
+            303
+        ]
+    },
+    "sur": {
+        "types": [
+            304
+        ]
+    },
+    "svc": {
+        "types": [
+            305
+        ]
+    },
+    "syp": {
+        "types": [
+            306
+        ]
+    },
+    "szl": {
+        "types": [
+            307
+        ]
+    },
+    "thb": {
+        "types": [
+            308
+        ]
+    },
+    "tjr": {
+        "types": [
+            309
+        ]
+    },
+    "tjs": {
+        "types": [
+            310
+        ]
+    },
+    "tmm": {
+        "types": [
+            311
+        ]
+    },
+    "tmt": {
+        "types": [
+            312
+        ]
+    },
+    "tnd": {
+        "types": [
+            313
+        ]
+    },
+    "top": {
+        "types": [
+            314
+        ]
+    },
+    "tpe": {
+        "types": [
+            315
+        ]
+    },
+    "trl": {
+        "types": [
+            316
+        ]
+    },
+    "try": {
+        "types": [
+            317
+        ]
+    },
+    "ttd": {
+        "types": [
+            318
+        ]
+    },
+    "twd": {
+        "types": [
+            319
+        ]
+    },
+    "tzs": {
+        "types": [
+            320
+        ]
+    },
+    "uah": {
+        "types": [
+            321
+        ]
+    },
+    "uak": {
+        "types": [
+            322
+        ]
+    },
+    "ugs": {
+        "types": [
+            323
+        ]
+    },
+    "ugx": {
+        "types": [
+            324
+        ]
+    },
+    "usd": {
+        "types": [
+            325
+        ]
+    },
+    "usn": {
+        "types": [
+            326
+        ]
+    },
+    "uss": {
+        "types": [
+            327
+        ]
+    },
+    "uyi": {
+        "types": [
+            328
+        ]
+    },
+    "uyp": {
+        "types": [
+            329
+        ]
+    },
+    "uyu": {
+        "types": [
+            330
+        ]
+    },
+    "uzs": {
+        "types": [
+            331
+        ]
+    },
+    "veb": {
+        "types": [
+            332
+        ]
+    },
+    "vef": {
+        "types": [
+            333
+        ]
+    },
+    "vnd": {
+        "types": [
+            334
+        ]
+    },
+    "vnn": {
+        "types": [
+            335
+        ]
+    },
+    "vuv": {
+        "types": [
+            336
+        ]
+    },
+    "wst": {
+        "types": [
+            337
+        ]
+    },
+    "xaf": {
+        "types": [
+            338
+        ]
+    },
+    "xag": {
+        "types": [
+            339
+        ]
+    },
+    "xau": {
+        "types": [
+            340
+        ]
+    },
+    "xba": {
+        "types": [
+            341
+        ]
+    },
+    "xbb": {
+        "types": [
+            342
+        ]
+    },
+    "xbc": {
+        "types": [
+            343
+        ]
+    },
+    "xbd": {
+        "types": [
+            344
+        ]
+    },
+    "xcd": {
+        "types": [
+            345
+        ]
+    },
+    "xdr": {
+        "types": [
+            346
+        ]
+    },
+    "xeu": {
+        "types": [
+            347
+        ]
+    },
+    "xfo": {
+        "types": [
+            348
+        ]
+    },
+    "xfu": {
+        "types": [
+            349
+        ]
+    },
+    "xof": {
+        "types": [
+            350
+        ]
+    },
+    "xpd": {
+        "types": [
+            351
+        ]
+    },
+    "xpf": {
+        "types": [
+            352
+        ]
+    },
+    "xpt": {
+        "types": [
+            353
+        ]
+    },
+    "xre": {
+        "types": [
+            354
+        ]
+    },
+    "xsu": {
+        "types": [
+            355
+        ]
+    },
+    "xts": {
+        "types": [
+            356
+        ]
+    },
+    "xua": {
+        "types": [
+            357
+        ]
+    },
+    "xxx": {
+        "types": [
+            358
+        ]
+    },
+    "ydd": {
+        "types": [
+            359
+        ]
+    },
+    "yer": {
+        "types": [
+            360
+        ]
+    },
+    "yud": {
+        "types": [
+            361
+        ]
+    },
+    "yum": {
+        "types": [
+            362
+        ]
+    },
+    "yun": {
+        "types": [
+            363
+        ]
+    },
+    "yur": {
+        "types": [
+            364
+        ]
+    },
+    "zal": {
+        "types": [
+            365
+        ]
+    },
+    "zar": {
+        "types": [
+            366
+        ]
+    },
+    "zmk": {
+        "types": [
+            367
+        ]
+    },
+    "zmw": {
+        "types": [
+            368
+        ]
+    },
+    "zrn": {
+        "types": [
+            369
+        ]
+    },
+    "zrz": {
+        "types": [
+            370
+        ]
+    },
+    "zwd": {
+        "types": [
+            371
+        ]
+    },
+    "zwl": {
+        "types": [
+            372
+        ]
+    },
+    "zwr": {
+        "types": [
+            373
+        ]
+    },
+    "ms": {
+        "keys": [
+            17
+        ]
+    },
+    "metric": {
+        "types": [
+            374
+        ]
+    },
+    "ussystem": {
+        "types": [
+            375
+        ]
+    },
+    "uksystem": {
+        "types": [
+            376
+        ]
+    },
+    "nu": {
+        "keys": [
+            18
+        ]
+    },
+    "ahom": {
+        "types": [
+            377
+        ]
+    },
+    "arab": {
+        "types": [
+            378
+        ]
+    },
+    "arabext": {
+        "types": [
+            379
+        ]
+    },
+    "armn": {
+        "types": [
+            380
+        ]
+    },
+    "armnlow": {
+        "types": [
+            381
+        ]
+    },
+    "bali": {
+        "types": [
+            382
+        ]
+    },
+    "beng": {
+        "types": [
+            383
+        ]
+    },
+    "brah": {
+        "types": [
+            384
+        ]
+    },
+    "cakm": {
+        "types": [
+            385
+        ]
+    },
+    "cham": {
+        "types": [
+            386
+        ]
+    },
+    "cyrl": {
+        "types": [
+            387
+        ]
+    },
+    "deva": {
+        "types": [
+            388
+        ]
+    },
+    "ethi": {
+        "types": [
+            389
+        ]
+    },
+    "finance": {
+        "types": [
+            390
+        ]
+    },
+    "fullwide": {
+        "types": [
+            391
+        ]
+    },
+    "geor": {
+        "types": [
+            392
+        ]
+    },
+    "grek": {
+        "types": [
+            393
+        ]
+    },
+    "greklow": {
+        "types": [
+            394
+        ]
+    },
+    "gujr": {
+        "types": [
+            395
+        ]
+    },
+    "guru": {
+        "types": [
+            396
+        ]
+    },
+    "hanidays": {
+        "types": [
+            397
+        ]
+    },
+    "hanidec": {
+        "types": [
+            398
+        ]
+    },
+    "hans": {
+        "types": [
+            399
+        ]
+    },
+    "hansfin": {
+        "types": [
+            400
+        ]
+    },
+    "hant": {
+        "types": [
+            401
+        ]
+    },
+    "hantfin": {
+        "types": [
+            402
+        ]
+    },
+    "hebr": {
+        "types": [
+            403
+        ]
+    },
+    "hmng": {
+        "types": [
+            404
+        ]
+    },
+    "java": {
+        "types": [
+            405
+        ]
+    },
+    "jpan": {
+        "types": [
+            406
+        ]
+    },
+    "jpanfin": {
+        "types": [
+            407
+        ]
+    },
+    "kali": {
+        "types": [
+            408
+        ]
+    },
+    "khmr": {
+        "types": [
+            409
+        ]
+    },
+    "knda": {
+        "types": [
+            410
+        ]
+    },
+    "lana": {
+        "types": [
+            411
+        ]
+    },
+    "lanatham": {
+        "types": [
+            412
+        ]
+    },
+    "laoo": {
+        "types": [
+            413
+        ]
+    },
+    "latn": {
+        "types": [
+            414
+        ]
+    },
+    "lepc": {
+        "types": [
+            415
+        ]
+    },
+    "limb": {
+        "types": [
+            416
+        ]
+    },
+    "mathbold": {
+        "types": [
+            417
+        ]
+    },
+    "mathdbl": {
+        "types": [
+            418
+        ]
+    },
+    "mathmono": {
+        "types": [
+            419
+        ]
+    },
+    "mathsanb": {
+        "types": [
+            420
+        ]
+    },
+    "mathsans": {
+        "types": [
+            421
+        ]
+    },
+    "mlym": {
+        "types": [
+            422
+        ]
+    },
+    "modi": {
+        "types": [
+            423
+        ]
+    },
+    "mong": {
+        "types": [
+            424
+        ]
+    },
+    "mroo": {
+        "types": [
+            425
+        ]
+    },
+    "mtei": {
+        "types": [
+            426
+        ]
+    },
+    "mymr": {
+        "types": [
+            427
+        ]
+    },
+    "mymrshan": {
+        "types": [
+            428
+        ]
+    },
+    "mymrtlng": {
+        "types": [
+            429
+        ]
+    },
+    "native": {
+        "types": [
+            430
+        ]
+    },
+    "nkoo": {
+        "types": [
+            431
+        ]
+    },
+    "olck": {
+        "types": [
+            432
+        ]
+    },
+    "orya": {
+        "types": [
+            433
+        ]
+    },
+    "osma": {
+        "types": [
+            434
+        ]
+    },
+    "roman": {
+        "types": [
+            435
+        ]
+    },
+    "romanlow": {
+        "types": [
+            436
+        ]
+    },
+    "saur": {
+        "types": [
+            437
+        ]
+    },
+    "shrd": {
+        "types": [
+            438
+        ]
+    },
+    "sind": {
+        "types": [
+            439
+        ]
+    },
+    "sinh": {
+        "types": [
+            440
+        ]
+    },
+    "sora": {
+        "types": [
+            441
+        ]
+    },
+    "sund": {
+        "types": [
+            442
+        ]
+    },
+    "takr": {
+        "types": [
+            443
+        ]
+    },
+    "talu": {
+        "types": [
+            444
+        ]
+    },
+    "taml": {
+        "types": [
+            445
+        ]
+    },
+    "tamldec": {
+        "types": [
+            446
+        ]
+    },
+    "telu": {
+        "types": [
+            447
+        ]
+    },
+    "thai": {
+        "types": [
+            448
+        ]
+    },
+    "tirh": {
+        "types": [
+            449
+        ]
+    },
+    "tibt": {
+        "types": [
+            450
+        ]
+    },
+    "traditio": {
+        "types": [
+            451
+        ]
+    },
+    "vaii": {
+        "types": [
+            452
+        ]
+    },
+    "wara": {
+        "types": [
+            453
+        ]
+    },
+    "lb": {
+        "keys": [
+            19
+        ]
+    },
+    "strict": {
+        "types": [
+            454
+        ]
+    },
+    "normal": {
+        "types": [
+            455,
+            457
+        ]
+    },
+    "loose": {
+        "types": [
+            456
+        ]
+    },
+    "lw": {
+        "keys": [
+            20
+        ]
+    },
+    "breakall": {
+        "types": [
+            458
+        ]
+    },
+    "keepall": {
+        "types": [
+            459
+        ]
+    },
+    "ss": {
+        "keys": [
+            21
+        ]
+    },
+    "none": {
+        "types": [
+            460
+        ]
+    },
+    "tz": {
+        "keys": [
+            22
+        ]
+    },
+    "adalv": {
+        "types": [
+            462
+        ]
+    },
+    "aedxb": {
+        "types": [
+            463
+        ]
+    },
+    "afkbl": {
+        "types": [
+            464
+        ]
+    },
+    "aganu": {
+        "types": [
+            465
+        ]
+    },
+    "aiaxa": {
+        "types": [
+            466
+        ]
+    },
+    "altia": {
+        "types": [
+            467
+        ]
+    },
+    "amevn": {
+        "types": [
+            468
+        ]
+    },
+    "ancur": {
+        "types": [
+            469
+        ]
+    },
+    "aolad": {
+        "types": [
+            470
+        ]
+    },
+    "aqams": {
+        "types": [
+            471
+        ]
+    },
+    "aqcas": {
+        "types": [
+            472
+        ]
+    },
+    "aqdav": {
+        "types": [
+            473
+        ]
+    },
+    "aqddu": {
+        "types": [
+            474
+        ]
+    },
+    "aqmaw": {
+        "types": [
+            475
+        ]
+    },
+    "aqmcm": {
+        "types": [
+            476
+        ]
+    },
+    "aqplm": {
+        "types": [
+            477
+        ]
+    },
+    "aqrot": {
+        "types": [
+            478
+        ]
+    },
+    "aqsyw": {
+        "types": [
+            479
+        ]
+    },
+    "aqtrl": {
+        "types": [
+            480
+        ]
+    },
+    "aqvos": {
+        "types": [
+            481
+        ]
+    },
+    "arbue": {
+        "types": [
+            482
+        ]
+    },
+    "arcor": {
+        "types": [
+            483
+        ]
+    },
+    "arctc": {
+        "types": [
+            484
+        ]
+    },
+    "arirj": {
+        "types": [
+            485
+        ]
+    },
+    "arjuj": {
+        "types": [
+            486
+        ]
+    },
+    "arluq": {
+        "types": [
+            487
+        ]
+    },
+    "armdz": {
+        "types": [
+            488
+        ]
+    },
+    "arrgl": {
+        "types": [
+            489
+        ]
+    },
+    "arsla": {
+        "types": [
+            490
+        ]
+    },
+    "artuc": {
+        "types": [
+            491
+        ]
+    },
+    "aruaq": {
+        "types": [
+            492
+        ]
+    },
+    "arush": {
+        "types": [
+            493
+        ]
+    },
+    "asppg": {
+        "types": [
+            494
+        ]
+    },
+    "atvie": {
+        "types": [
+            495
+        ]
+    },
+    "auadl": {
+        "types": [
+            496
+        ]
+    },
+    "aubhq": {
+        "types": [
+            497
+        ]
+    },
+    "aubne": {
+        "types": [
+            498
+        ]
+    },
+    "audrw": {
+        "types": [
+            499
+        ]
+    },
+    "aueuc": {
+        "types": [
+            500
+        ]
+    },
+    "auhba": {
+        "types": [
+            501
+        ]
+    },
+    "aukns": {
+        "types": [
+            502
+        ]
+    },
+    "auldc": {
+        "types": [
+            503
+        ]
+    },
+    "auldh": {
+        "types": [
+            504
+        ]
+    },
+    "aumel": {
+        "types": [
+            505
+        ]
+    },
+    "aumqi": {
+        "types": [
+            506
+        ]
+    },
+    "auper": {
+        "types": [
+            507
+        ]
+    },
+    "ausyd": {
+        "types": [
+            508
+        ]
+    },
+    "awaua": {
+        "types": [
+            509
+        ]
+    },
+    "azbak": {
+        "types": [
+            510
+        ]
+    },
+    "basjj": {
+        "types": [
+            511
+        ]
+    },
+    "bbbgi": {
+        "types": [
+            512
+        ]
+    },
+    "bddac": {
+        "types": [
+            513
+        ]
+    },
+    "bebru": {
+        "types": [
+            514
+        ]
+    },
+    "bfoua": {
+        "types": [
+            515
+        ]
+    },
+    "bgsof": {
+        "types": [
+            516
+        ]
+    },
+    "bhbah": {
+        "types": [
+            517
+        ]
+    },
+    "bibjm": {
+        "types": [
+            518
+        ]
+    },
+    "bjptn": {
+        "types": [
+            519
+        ]
+    },
+    "bmbda": {
+        "types": [
+            520
+        ]
+    },
+    "bnbwn": {
+        "types": [
+            521
+        ]
+    },
+    "bolpb": {
+        "types": [
+            522
+        ]
+    },
+    "bqkra": {
+        "types": [
+            523
+        ]
+    },
+    "braux": {
+        "types": [
+            524
+        ]
+    },
+    "brbel": {
+        "types": [
+            525
+        ]
+    },
+    "brbvb": {
+        "types": [
+            526
+        ]
+    },
+    "brcgb": {
+        "types": [
+            527
+        ]
+    },
+    "brcgr": {
+        "types": [
+            528
+        ]
+    },
+    "brern": {
+        "types": [
+            529
+        ]
+    },
+    "brfen": {
+        "types": [
+            530
+        ]
+    },
+    "brfor": {
+        "types": [
+            531
+        ]
+    },
+    "brmao": {
+        "types": [
+            532
+        ]
+    },
+    "brmcz": {
+        "types": [
+            533
+        ]
+    },
+    "brpvh": {
+        "types": [
+            534
+        ]
+    },
+    "brrbr": {
+        "types": [
+            535
+        ]
+    },
+    "brrec": {
+        "types": [
+            536
+        ]
+    },
+    "brsao": {
+        "types": [
+            537
+        ]
+    },
+    "brssa": {
+        "types": [
+            538
+        ]
+    },
+    "brstm": {
+        "types": [
+            539
+        ]
+    },
+    "bsnas": {
+        "types": [
+            540
+        ]
+    },
+    "btthi": {
+        "types": [
+            541
+        ]
+    },
+    "bwgbe": {
+        "types": [
+            542
+        ]
+    },
+    "bymsq": {
+        "types": [
+            543
+        ]
+    },
+    "bzbze": {
+        "types": [
+            544
+        ]
+    },
+    "cacfq": {
+        "types": [
+            545
+        ]
+    },
+    "caedm": {
+        "types": [
+            546
+        ]
+    },
+    "caffs": {
+        "types": [
+            547
+        ]
+    },
+    "cafne": {
+        "types": [
+            548
+        ]
+    },
+    "caglb": {
+        "types": [
+            549
+        ]
+    },
+    "cagoo": {
+        "types": [
+            550
+        ]
+    },
+    "cahal": {
+        "types": [
+            551
+        ]
+    },
+    "caiql": {
+        "types": [
+            552
+        ]
+    },
+    "camon": {
+        "types": [
+            553
+        ]
+    },
+    "camtr": {
+        "types": [
+            554
+        ]
+    },
+    "capnt": {
+        "types": [
+            555
+        ]
+    },
+    "careb": {
+        "types": [
+            556
+        ]
+    },
+    "careg": {
+        "types": [
+            557
+        ]
+    },
+    "casjf": {
+        "types": [
+            558
+        ]
+    },
+    "canpg": {
+        "types": [
+            559
+        ]
+    },
+    "cathu": {
+        "types": [
+            560
+        ]
+    },
+    "cator": {
+        "types": [
+            561
+        ]
+    },
+    "cavan": {
+        "types": [
+            562
+        ]
+    },
+    "cawnp": {
+        "types": [
+            563
+        ]
+    },
+    "caybx": {
+        "types": [
+            564
+        ]
+    },
+    "caycb": {
+        "types": [
+            565
+        ]
+    },
+    "cayda": {
+        "types": [
+            566
+        ]
+    },
+    "caydq": {
+        "types": [
+            567
+        ]
+    },
+    "cayek": {
+        "types": [
+            568
+        ]
+    },
+    "cayev": {
+        "types": [
+            569
+        ]
+    },
+    "cayxy": {
+        "types": [
+            570
+        ]
+    },
+    "cayyn": {
+        "types": [
+            571
+        ]
+    },
+    "cayzf": {
+        "types": [
+            572
+        ]
+    },
+    "cayzs": {
+        "types": [
+            573
+        ]
+    },
+    "cccck": {
+        "types": [
+            574
+        ]
+    },
+    "cdfbm": {
+        "types": [
+            575
+        ]
+    },
+    "cdfih": {
+        "types": [
+            576
+        ]
+    },
+    "cfbgf": {
+        "types": [
+            577
+        ]
+    },
+    "cgbzv": {
+        "types": [
+            578
+        ]
+    },
+    "chzrh": {
+        "types": [
+            579
+        ]
+    },
+    "ciabj": {
+        "types": [
+            580
+        ]
+    },
+    "ckrar": {
+        "types": [
+            581
+        ]
+    },
+    "clipc": {
+        "types": [
+            582
+        ]
+    },
+    "clscl": {
+        "types": [
+            583
+        ]
+    },
+    "cmdla": {
+        "types": [
+            584
+        ]
+    },
+    "cnckg": {
+        "types": [
+            585
+        ]
+    },
+    "cnhrb": {
+        "types": [
+            586
+        ]
+    },
+    "cnkhg": {
+        "types": [
+            587
+        ]
+    },
+    "cnsha": {
+        "types": [
+            588
+        ]
+    },
+    "cnurc": {
+        "types": [
+            589
+        ]
+    },
+    "cobog": {
+        "types": [
+            590
+        ]
+    },
+    "crsjo": {
+        "types": [
+            591
+        ]
+    },
+    "cst6cdt": {
+        "types": [
+            592
+        ]
+    },
+    "cuhav": {
+        "types": [
+            593
+        ]
+    },
+    "cvrai": {
+        "types": [
+            594
+        ]
+    },
+    "cxxch": {
+        "types": [
+            595
+        ]
+    },
+    "cynic": {
+        "types": [
+            596
+        ]
+    },
+    "czprg": {
+        "types": [
+            597
+        ]
+    },
+    "deber": {
+        "types": [
+            598
+        ]
+    },
+    "debsngn": {
+        "types": [
+            599
+        ]
+    },
+    "djjib": {
+        "types": [
+            600
+        ]
+    },
+    "dkcph": {
+        "types": [
+            601
+        ]
+    },
+    "dmdom": {
+        "types": [
+            602
+        ]
+    },
+    "dosdq": {
+        "types": [
+            603
+        ]
+    },
+    "dzalg": {
+        "types": [
+            604
+        ]
+    },
+    "ecgps": {
+        "types": [
+            605
+        ]
+    },
+    "ecgye": {
+        "types": [
+            606
+        ]
+    },
+    "eetll": {
+        "types": [
+            607
+        ]
+    },
+    "egcai": {
+        "types": [
+            608
+        ]
+    },
+    "eheai": {
+        "types": [
+            609
+        ]
+    },
+    "erasm": {
+        "types": [
+            610
+        ]
+    },
+    "esceu": {
+        "types": [
+            611
+        ]
+    },
+    "eslpa": {
+        "types": [
+            612
+        ]
+    },
+    "esmad": {
+        "types": [
+            613
+        ]
+    },
+    "est5edt": {
+        "types": [
+            614
+        ]
+    },
+    "etadd": {
+        "types": [
+            615
+        ]
+    },
+    "fihel": {
+        "types": [
+            616
+        ]
+    },
+    "fimhq": {
+        "types": [
+            617
+        ]
+    },
+    "fjsuv": {
+        "types": [
+            618
+        ]
+    },
+    "fkpsy": {
+        "types": [
+            619
+        ]
+    },
+    "fmksa": {
+        "types": [
+            620
+        ]
+    },
+    "fmpni": {
+        "types": [
+            621
+        ]
+    },
+    "fmtkk": {
+        "types": [
+            622
+        ]
+    },
+    "fotho": {
+        "types": [
+            623
+        ]
+    },
+    "frpar": {
+        "types": [
+            624
+        ]
+    },
+    "galbv": {
+        "types": [
+            625
+        ]
+    },
+    "gaza": {
+        "types": [
+            626
+        ]
+    },
+    "gblon": {
+        "types": [
+            627
+        ]
+    },
+    "gdgnd": {
+        "types": [
+            628
+        ]
+    },
+    "getbs": {
+        "types": [
+            629
+        ]
+    },
+    "gfcay": {
+        "types": [
+            630
+        ]
+    },
+    "gggci": {
+        "types": [
+            631
+        ]
+    },
+    "ghacc": {
+        "types": [
+            632
+        ]
+    },
+    "gigib": {
+        "types": [
+            633
+        ]
+    },
+    "gldkshvn": {
+        "types": [
+            634
+        ]
+    },
+    "glgoh": {
+        "types": [
+            635
+        ]
+    },
+    "globy": {
+        "types": [
+            636
+        ]
+    },
+    "glthu": {
+        "types": [
+            637
+        ]
+    },
+    "gmbjl": {
+        "types": [
+            638
+        ]
+    },
+    "gncky": {
+        "types": [
+            639
+        ]
+    },
+    "gpbbr": {
+        "types": [
+            640
+        ]
+    },
+    "gpmsb": {
+        "types": [
+            641
+        ]
+    },
+    "gpsbh": {
+        "types": [
+            642
+        ]
+    },
+    "gqssg": {
+        "types": [
+            643
+        ]
+    },
+    "grath": {
+        "types": [
+            644
+        ]
+    },
+    "gsgrv": {
+        "types": [
+            645
+        ]
+    },
+    "gtgua": {
+        "types": [
+            646
+        ]
+    },
+    "gugum": {
+        "types": [
+            647
+        ]
+    },
+    "gwoxb": {
+        "types": [
+            648
+        ]
+    },
+    "gygeo": {
+        "types": [
+            649
+        ]
+    },
+    "hebron": {
+        "types": [
+            650
+        ]
+    },
+    "hkhkg": {
+        "types": [
+            651
+        ]
+    },
+    "hntgu": {
+        "types": [
+            652
+        ]
+    },
+    "hrzag": {
+        "types": [
+            653
+        ]
+    },
+    "htpap": {
+        "types": [
+            654
+        ]
+    },
+    "hubud": {
+        "types": [
+            655
+        ]
+    },
+    "iddjj": {
+        "types": [
+            656
+        ]
+    },
+    "idjkt": {
+        "types": [
+            657
+        ]
+    },
+    "idmak": {
+        "types": [
+            658
+        ]
+    },
+    "idpnk": {
+        "types": [
+            659
+        ]
+    },
+    "iedub": {
+        "types": [
+            660
+        ]
+    },
+    "imdgs": {
+        "types": [
+            661
+        ]
+    },
+    "inccu": {
+        "types": [
+            662
+        ]
+    },
+    "iodga": {
+        "types": [
+            663
+        ]
+    },
+    "iqbgw": {
+        "types": [
+            664
+        ]
+    },
+    "irthr": {
+        "types": [
+            665
+        ]
+    },
+    "isrey": {
+        "types": [
+            666
+        ]
+    },
+    "itrom": {
+        "types": [
+            667
+        ]
+    },
+    "jeruslm": {
+        "types": [
+            668
+        ]
+    },
+    "jesth": {
+        "types": [
+            669
+        ]
+    },
+    "jmkin": {
+        "types": [
+            670
+        ]
+    },
+    "joamm": {
+        "types": [
+            671
+        ]
+    },
+    "jptyo": {
+        "types": [
+            672
+        ]
+    },
+    "kenbo": {
+        "types": [
+            673
+        ]
+    },
+    "kgfru": {
+        "types": [
+            674
+        ]
+    },
+    "khpnh": {
+        "types": [
+            675
+        ]
+    },
+    "kicxi": {
+        "types": [
+            676
+        ]
+    },
+    "kipho": {
+        "types": [
+            677
+        ]
+    },
+    "kitrw": {
+        "types": [
+            678
+        ]
+    },
+    "kmyva": {
+        "types": [
+            679
+        ]
+    },
+    "knbas": {
+        "types": [
+            680
+        ]
+    },
+    "kpfnj": {
+        "types": [
+            681
+        ]
+    },
+    "krsel": {
+        "types": [
+            682
+        ]
+    },
+    "kwkwi": {
+        "types": [
+            683
+        ]
+    },
+    "kygec": {
+        "types": [
+            684
+        ]
+    },
+    "kzaau": {
+        "types": [
+            685
+        ]
+    },
+    "kzakx": {
+        "types": [
+            686
+        ]
+    },
+    "kzala": {
+        "types": [
+            687
+        ]
+    },
+    "kzkzo": {
+        "types": [
+            688
+        ]
+    },
+    "kzura": {
+        "types": [
+            689
+        ]
+    },
+    "lavte": {
+        "types": [
+            690
+        ]
+    },
+    "lbbey": {
+        "types": [
+            691
+        ]
+    },
+    "lccas": {
+        "types": [
+            692
+        ]
+    },
+    "livdz": {
+        "types": [
+            693
+        ]
+    },
+    "lkcmb": {
+        "types": [
+            694
+        ]
+    },
+    "lrmlw": {
+        "types": [
+            695
+        ]
+    },
+    "lsmsu": {
+        "types": [
+            696
+        ]
+    },
+    "ltvno": {
+        "types": [
+            697
+        ]
+    },
+    "lulux": {
+        "types": [
+            698
+        ]
+    },
+    "lvrix": {
+        "types": [
+            699
+        ]
+    },
+    "lytip": {
+        "types": [
+            700
+        ]
+    },
+    "macas": {
+        "types": [
+            701
+        ]
+    },
+    "mcmon": {
+        "types": [
+            702
+        ]
+    },
+    "mdkiv": {
+        "types": [
+            703
+        ]
+    },
+    "metgd": {
+        "types": [
+            704
+        ]
+    },
+    "mgtnr": {
+        "types": [
+            705
+        ]
+    },
+    "mhkwa": {
+        "types": [
+            706
+        ]
+    },
+    "mhmaj": {
+        "types": [
+            707
+        ]
+    },
+    "mkskp": {
+        "types": [
+            708
+        ]
+    },
+    "mlbko": {
+        "types": [
+            709
+        ]
+    },
+    "mmrgn": {
+        "types": [
+            710
+        ]
+    },
+    "mncoq": {
+        "types": [
+            711
+        ]
+    },
+    "mnhvd": {
+        "types": [
+            712
+        ]
+    },
+    "mnuln": {
+        "types": [
+            713
+        ]
+    },
+    "momfm": {
+        "types": [
+            714
+        ]
+    },
+    "mpspn": {
+        "types": [
+            715
+        ]
+    },
+    "mqfdf": {
+        "types": [
+            716
+        ]
+    },
+    "mrnkc": {
+        "types": [
+            717
+        ]
+    },
+    "msmni": {
+        "types": [
+            718
+        ]
+    },
+    "mst7mdt": {
+        "types": [
+            719
+        ]
+    },
+    "mtmla": {
+        "types": [
+            720
+        ]
+    },
+    "muplu": {
+        "types": [
+            721
+        ]
+    },
+    "mvmle": {
+        "types": [
+            722
+        ]
+    },
+    "mwblz": {
+        "types": [
+            723
+        ]
+    },
+    "mxchi": {
+        "types": [
+            724
+        ]
+    },
+    "mxcun": {
+        "types": [
+            725
+        ]
+    },
+    "mxhmo": {
+        "types": [
+            726
+        ]
+    },
+    "mxmam": {
+        "types": [
+            727
+        ]
+    },
+    "mxmex": {
+        "types": [
+            728
+        ]
+    },
+    "mxmid": {
+        "types": [
+            729
+        ]
+    },
+    "mxmty": {
+        "types": [
+            730
+        ]
+    },
+    "mxmzt": {
+        "types": [
+            731
+        ]
+    },
+    "mxoji": {
+        "types": [
+            732
+        ]
+    },
+    "mxpvr": {
+        "types": [
+            733
+        ]
+    },
+    "mxstis": {
+        "types": [
+            734
+        ]
+    },
+    "mxtij": {
+        "types": [
+            735
+        ]
+    },
+    "mykch": {
+        "types": [
+            736
+        ]
+    },
+    "mykul": {
+        "types": [
+            737
+        ]
+    },
+    "mzmpm": {
+        "types": [
+            738
+        ]
+    },
+    "nawdh": {
+        "types": [
+            739
+        ]
+    },
+    "ncnou": {
+        "types": [
+            740
+        ]
+    },
+    "nenim": {
+        "types": [
+            741
+        ]
+    },
+    "nfnlk": {
+        "types": [
+            742
+        ]
+    },
+    "nglos": {
+        "types": [
+            743
+        ]
+    },
+    "nimga": {
+        "types": [
+            744
+        ]
+    },
+    "nlams": {
+        "types": [
+            745
+        ]
+    },
+    "noosl": {
+        "types": [
+            746
+        ]
+    },
+    "npktm": {
+        "types": [
+            747
+        ]
+    },
+    "nrinu": {
+        "types": [
+            748
+        ]
+    },
+    "nuiue": {
+        "types": [
+            749
+        ]
+    },
+    "nzakl": {
+        "types": [
+            750
+        ]
+    },
+    "nzcht": {
+        "types": [
+            751
+        ]
+    },
+    "ommct": {
+        "types": [
+            752
+        ]
+    },
+    "papty": {
+        "types": [
+            753
+        ]
+    },
+    "pelim": {
+        "types": [
+            754
+        ]
+    },
+    "pfgmr": {
+        "types": [
+            755
+        ]
+    },
+    "pfnhv": {
+        "types": [
+            756
+        ]
+    },
+    "pfppt": {
+        "types": [
+            757
+        ]
+    },
+    "pgpom": {
+        "types": [
+            758
+        ]
+    },
+    "pgraw": {
+        "types": [
+            759
+        ]
+    },
+    "phmnl": {
+        "types": [
+            760
+        ]
+    },
+    "pkkhi": {
+        "types": [
+            761
+        ]
+    },
+    "plwaw": {
+        "types": [
+            762
+        ]
+    },
+    "pmmqc": {
+        "types": [
+            763
+        ]
+    },
+    "pnpcn": {
+        "types": [
+            764
+        ]
+    },
+    "prsju": {
+        "types": [
+            765
+        ]
+    },
+    "pst8pdt": {
+        "types": [
+            766
+        ]
+    },
+    "ptfnc": {
+        "types": [
+            767
+        ]
+    },
+    "ptlis": {
+        "types": [
+            768
+        ]
+    },
+    "ptpdl": {
+        "types": [
+            769
+        ]
+    },
+    "pwror": {
+        "types": [
+            770
+        ]
+    },
+    "pyasu": {
+        "types": [
+            771
+        ]
+    },
+    "qadoh": {
+        "types": [
+            772
+        ]
+    },
+    "rereu": {
+        "types": [
+            773
+        ]
+    },
+    "robuh": {
+        "types": [
+            774
+        ]
+    },
+    "rsbeg": {
+        "types": [
+            775
+        ]
+    },
+    "ruchita": {
+        "types": [
+            776
+        ]
+    },
+    "rudyr": {
+        "types": [
+            777
+        ]
+    },
+    "rugdx": {
+        "types": [
+            778
+        ]
+    },
+    "ruikt": {
+        "types": [
+            779
+        ]
+    },
+    "rukgd": {
+        "types": [
+            780
+        ]
+    },
+    "rukhndg": {
+        "types": [
+            781
+        ]
+    },
+    "rukra": {
+        "types": [
+            782
+        ]
+    },
+    "rukuf": {
+        "types": [
+            783
+        ]
+    },
+    "rumow": {
+        "types": [
+            784
+        ]
+    },
+    "runoz": {
+        "types": [
+            785
+        ]
+    },
+    "ruoms": {
+        "types": [
+            786
+        ]
+    },
+    "ruovb": {
+        "types": [
+            787
+        ]
+    },
+    "rupkc": {
+        "types": [
+            788
+        ]
+    },
+    "rusred": {
+        "types": [
+            789
+        ]
+    },
+    "ruunera": {
+        "types": [
+            790
+        ]
+    },
+    "ruuus": {
+        "types": [
+            791
+        ]
+    },
+    "ruvog": {
+        "types": [
+            792
+        ]
+    },
+    "ruvvo": {
+        "types": [
+            793
+        ]
+    },
+    "ruyek": {
+        "types": [
+            794
+        ]
+    },
+    "ruyks": {
+        "types": [
+            795
+        ]
+    },
+    "rwkgl": {
+        "types": [
+            796
+        ]
+    },
+    "saruh": {
+        "types": [
+            797
+        ]
+    },
+    "sbhir": {
+        "types": [
+            798
+        ]
+    },
+    "scmaw": {
+        "types": [
+            799
+        ]
+    },
+    "sdkrt": {
+        "types": [
+            800
+        ]
+    },
+    "sesto": {
+        "types": [
+            801
+        ]
+    },
+    "sgsin": {
+        "types": [
+            802
+        ]
+    },
+    "shshn": {
+        "types": [
+            803
+        ]
+    },
+    "silju": {
+        "types": [
+            804
+        ]
+    },
+    "sjlyr": {
+        "types": [
+            805
+        ]
+    },
+    "skbts": {
+        "types": [
+            806
+        ]
+    },
+    "slfna": {
+        "types": [
+            807
+        ]
+    },
+    "smsai": {
+        "types": [
+            808
+        ]
+    },
+    "sndkr": {
+        "types": [
+            809
+        ]
+    },
+    "somgq": {
+        "types": [
+            810
+        ]
+    },
+    "srpbm": {
+        "types": [
+            811
+        ]
+    },
+    "ssjub": {
+        "types": [
+            812
+        ]
+    },
+    "sttms": {
+        "types": [
+            813
+        ]
+    },
+    "svsal": {
+        "types": [
+            814
+        ]
+    },
+    "sxphi": {
+        "types": [
+            815
+        ]
+    },
+    "sydam": {
+        "types": [
+            816
+        ]
+    },
+    "szqmn": {
+        "types": [
+            817
+        ]
+    },
+    "tcgdt": {
+        "types": [
+            818
+        ]
+    },
+    "tdndj": {
+        "types": [
+            819
+        ]
+    },
+    "tfpfr": {
+        "types": [
+            820
+        ]
+    },
+    "tglfw": {
+        "types": [
+            821
+        ]
+    },
+    "thbkk": {
+        "types": [
+            822
+        ]
+    },
+    "tjdyu": {
+        "types": [
+            823
+        ]
+    },
+    "tkfko": {
+        "types": [
+            824
+        ]
+    },
+    "tldil": {
+        "types": [
+            825
+        ]
+    },
+    "tmasb": {
+        "types": [
+            826
+        ]
+    },
+    "tntun": {
+        "types": [
+            827
+        ]
+    },
+    "totbu": {
+        "types": [
+            828
+        ]
+    },
+    "trist": {
+        "types": [
+            829
+        ]
+    },
+    "ttpos": {
+        "types": [
+            830
+        ]
+    },
+    "tvfun": {
+        "types": [
+            831
+        ]
+    },
+    "twtpe": {
+        "types": [
+            832
+        ]
+    },
+    "tzdar": {
+        "types": [
+            833
+        ]
+    },
+    "uaiev": {
+        "types": [
+            834
+        ]
+    },
+    "uaozh": {
+        "types": [
+            835
+        ]
+    },
+    "uasip": {
+        "types": [
+            836
+        ]
+    },
+    "uauzh": {
+        "types": [
+            837
+        ]
+    },
+    "ugkla": {
+        "types": [
+            838
+        ]
+    },
+    "umawk": {
+        "types": [
+            839
+        ]
+    },
+    "umjon": {
+        "types": [
+            840
+        ]
+    },
+    "ummdy": {
+        "types": [
+            841
+        ]
+    },
+    "unk": {
+        "types": [
+            842
+        ]
+    },
+    "usadk": {
+        "types": [
+            843
+        ]
+    },
+    "usaeg": {
+        "types": [
+            844
+        ]
+    },
+    "usanc": {
+        "types": [
+            845
+        ]
+    },
+    "usboi": {
+        "types": [
+            846
+        ]
+    },
+    "uschi": {
+        "types": [
+            847
+        ]
+    },
+    "usden": {
+        "types": [
+            848
+        ]
+    },
+    "usdet": {
+        "types": [
+            849
+        ]
+    },
+    "ushnl": {
+        "types": [
+            850
+        ]
+    },
+    "usind": {
+        "types": [
+            851
+        ]
+    },
+    "usinvev": {
+        "types": [
+            852
+        ]
+    },
+    "usjnu": {
+        "types": [
+            853
+        ]
+    },
+    "usknx": {
+        "types": [
+            854
+        ]
+    },
+    "uslax": {
+        "types": [
+            855
+        ]
+    },
+    "uslui": {
+        "types": [
+            856
+        ]
+    },
+    "usmnm": {
+        "types": [
+            857
+        ]
+    },
+    "usmtm": {
+        "types": [
+            858
+        ]
+    },
+    "usmoc": {
+        "types": [
+            859
+        ]
+    },
+    "usnavajo": {
+        "types": [
+            860
+        ]
+    },
+    "usndcnt": {
+        "types": [
+            861
+        ]
+    },
+    "usndnsl": {
+        "types": [
+            862
+        ]
+    },
+    "usnyc": {
+        "types": [
+            863
+        ]
+    },
+    "usoea": {
+        "types": [
+            864
+        ]
+    },
+    "usome": {
+        "types": [
+            865
+        ]
+    },
+    "usphx": {
+        "types": [
+            866
+        ]
+    },
+    "ussit": {
+        "types": [
+            867
+        ]
+    },
+    "ustel": {
+        "types": [
+            868
+        ]
+    },
+    "uswlz": {
+        "types": [
+            869
+        ]
+    },
+    "uswsq": {
+        "types": [
+            870
+        ]
+    },
+    "usxul": {
+        "types": [
+            871
+        ]
+    },
+    "usyak": {
+        "types": [
+            872
+        ]
+    },
+    "utc": {
+        "types": [
+            873
+        ]
+    },
+    "utce01": {
+        "types": [
+            874
+        ]
+    },
+    "utce02": {
+        "types": [
+            875
+        ]
+    },
+    "utce03": {
+        "types": [
+            876
+        ]
+    },
+    "utce04": {
+        "types": [
+            877
+        ]
+    },
+    "utce05": {
+        "types": [
+            878
+        ]
+    },
+    "utce06": {
+        "types": [
+            879
+        ]
+    },
+    "utce07": {
+        "types": [
+            880
+        ]
+    },
+    "utce08": {
+        "types": [
+            881
+        ]
+    },
+    "utce09": {
+        "types": [
+            882
+        ]
+    },
+    "utce10": {
+        "types": [
+            883
+        ]
+    },
+    "utce11": {
+        "types": [
+            884
+        ]
+    },
+    "utce12": {
+        "types": [
+            885
+        ]
+    },
+    "utce13": {
+        "types": [
+            886
+        ]
+    },
+    "utce14": {
+        "types": [
+            887
+        ]
+    },
+    "utcw01": {
+        "types": [
+            888
+        ]
+    },
+    "utcw02": {
+        "types": [
+            889
+        ]
+    },
+    "utcw03": {
+        "types": [
+            890
+        ]
+    },
+    "utcw04": {
+        "types": [
+            891
+        ]
+    },
+    "utcw05": {
+        "types": [
+            892
+        ]
+    },
+    "utcw06": {
+        "types": [
+            893
+        ]
+    },
+    "utcw07": {
+        "types": [
+            894
+        ]
+    },
+    "utcw08": {
+        "types": [
+            895
+        ]
+    },
+    "utcw09": {
+        "types": [
+            896
+        ]
+    },
+    "utcw10": {
+        "types": [
+            897
+        ]
+    },
+    "utcw11": {
+        "types": [
+            898
+        ]
+    },
+    "utcw12": {
+        "types": [
+            899
+        ]
+    },
+    "uymvd": {
+        "types": [
+            900
+        ]
+    },
+    "uzskd": {
+        "types": [
+            901
+        ]
+    },
+    "uztas": {
+        "types": [
+            902
+        ]
+    },
+    "vavat": {
+        "types": [
+            903
+        ]
+    },
+    "vcsvd": {
+        "types": [
+            904
+        ]
+    },
+    "veccs": {
+        "types": [
+            905
+        ]
+    },
+    "vgtov": {
+        "types": [
+            906
+        ]
+    },
+    "vistt": {
+        "types": [
+            907
+        ]
+    },
+    "vnsgn": {
+        "types": [
+            908
+        ]
+    },
+    "vuvli": {
+        "types": [
+            909
+        ]
+    },
+    "wfmau": {
+        "types": [
+            910
+        ]
+    },
+    "wsapw": {
+        "types": [
+            911
+        ]
+    },
+    "yeade": {
+        "types": [
+            912
+        ]
+    },
+    "ytmam": {
+        "types": [
+            913
+        ]
+    },
+    "zajnb": {
+        "types": [
+            914
+        ]
+    },
+    "zmlun": {
+        "types": [
+            915
+        ]
+    },
+    "zwhre": {
+        "types": [
+            916
+        ]
+    },
+    "em": {
+        "keys": [
+            23
+        ]
+    },
+    "text": {
+        "types": [
+            918
+        ]
+    },
+    "default": {
+        "types": [
+            919
+        ]
+    },
+    "rg": {
+        "keys": [
+            24
+        ]
+    },
+    "RG_KEY_VALUE": {
+        "types": [
+            920
+        ]
+    },
+    "sd": {
+        "keys": [
+            25
+        ]
+    },
+    "SUBDIVISION_CODE": {
+        "types": [
+            921
+        ]
+    },
+    "va": {
+        "keys": [
+            26
+        ]
+    },
+    "posix": {
+        "types": [
+            922
+        ]
+    }
+}

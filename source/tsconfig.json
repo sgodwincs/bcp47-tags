@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "../build",
+        "strictNullChecks": true,
+        "target": "es5",
+        "types": [
+            "node",
+            "mocha"
+        ]
+    },
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "files": [
+        "./extensions/unicode/TransformedContentExtension.ts",
+        "./extensions/unicode/UnicodeBaseExtension.ts",
+        "./extensions/unicode/UnicodeLocaleExtension.ts",
+        "./ExtensionSpec.ts",
+        "./LanguageSubtag.ts",
+        "./LanguageTag.ts",
+        "./registry.ts",
+        "./registry/extension.ts",
+        "./registry/extlang.ts",
+        "./registry/index.ts",
+        "./registry/language.ts",
+        "./registry/privateuse.ts",
+        "./registry/region.ts",
+        "./registry/script.ts",
+        "./registry/singleton.ts",
+        "./registry/variant.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

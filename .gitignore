@@ -1,0 +1,9 @@
+.alm
+build
+data/**/*.js
+docs
+node_modules
+source/**/*.d.ts
+source/**/*.js
+tests/**/*.d.ts
+tests/**/*.js
