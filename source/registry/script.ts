@@ -54,8 +54,7 @@ const wellFormedRegExp: RegExp = /^[a-zA-Z]{4}$/;
  */
 export function IsPrivateUse(script: string): boolean
 {
-    script = script.toLowerCase();
-    return script.length === 4 && script >= 'qaaa' && script <= 'qabx';
+    return MapPrivateUseToRegistered(script) !== null;
 };
 
 /**
@@ -125,4 +124,30 @@ export function IsWellFormed(script: string, options: IsWellFormedOptions = { })
     }
 
     return options.followsCaseConventions ? followsCaseConventionsRegExp.test(script) : wellFormedRegExp.test(script);
+};
+
+/**
+ * Returns the script subtag string that is registered private use in the
+ * [IANA language Subtag Registry](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) in the case where the given
+ * script subtag string is private use. If the given script subtag string is not private use, this will return `null`.  Note that the returned strings
+ * will follow case conventions as defined for a script subtag string.
+ *
+ * @param script The subtag string to map to the registered private use subtag string.
+ * @returns Returns the corresponding registered script subtag string or `null` if it is not private use.
+ */
+export function MapPrivateUseToRegistered(script: string): null | string
+{
+    script = script.toLowerCase();
+
+    if (script.length !== 4)
+    {
+        return null;
+    }
+
+    if (script >= 'qaaa' && script <= 'qabx')
+    {
+        return 'Qaaa..Qabx';
+    }
+
+    return null;
 };

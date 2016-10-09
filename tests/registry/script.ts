@@ -6,7 +6,8 @@ import * as chai from 'chai';
 
 // Internal.
 
-import { IsPrivateUse, IsPrivateUseRange, IsRegistered, IsValid, IsWellFormed } from '../../source/registry/script';
+import { IsPrivateUse, IsPrivateUseRange, IsRegistered,
+         IsValid, IsWellFormed, MapPrivateUseToRegistered } from '../../source/registry/script';
 
 /* Test body. */
 
@@ -196,6 +197,27 @@ describe('Subtag - Script',
                                 expect(IsWellFormed(script)).to.equal(!IsPrivateUseRange(script),
                                        `Expected "${script}" to${IsPrivateUseRange(script) ? '' : ' not'} be well-formed`);
                             });
+                    });
+            });
+
+        describe('.MapPrivateUseToRegistered',
+            () =>
+            {
+                it('should map the subtag to the correct registered private use subtag',
+                    () =>
+                    {
+                        expect(MapPrivateUseToRegistered('')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('abcd')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaaaa')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaaa ')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('pzzz')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaby')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaaa..qabx')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaaa')).to.equal('Qaaa..Qabx');
+                        expect(MapPrivateUseToRegistered('QAAA')).to.equal('Qaaa..Qabx');
+                        expect(MapPrivateUseToRegistered('qaac')).to.equal('Qaaa..Qabx');
+                        expect(MapPrivateUseToRegistered('qaba')).to.equal('Qaaa..Qabx');
+                        expect(MapPrivateUseToRegistered('qabx')).to.equal('Qaaa..Qabx');
                     });
             });
     });

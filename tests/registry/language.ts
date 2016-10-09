@@ -6,7 +6,8 @@ import * as chai from 'chai';
 
 // Internal.
 
-import { IsPrivateUse, IsPrivateUseRange, IsRegistered, IsValid, IsWellFormed } from '../../source/registry/language';
+import { IsPrivateUse, IsPrivateUseRange, IsRegistered,
+         IsValid, IsWellFormed, MapPrivateUseToRegistered } from '../../source/registry/language';
 
 /* Test body. */
 
@@ -311,6 +312,26 @@ describe('Subtag - Language',
                                 expect(IsWellFormed(language)).to.equal(!IsPrivateUseRange(language),
                                        `Expected "${language}" to${IsPrivateUseRange(language) ? '' : ' not'} be well-formed`);
                             });
+                    });
+            });
+
+        describe('.MapPrivateUseToRegistered',
+            () =>
+            {
+                it('should map the subtag to the correct registered private use subtag',
+                    () =>
+                    {
+                        expect(MapPrivateUseToRegistered('')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('abc')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaaa')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qa')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qua')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaa..qtz')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qaa')).to.equal('qaa..qtz');
+                        expect(MapPrivateUseToRegistered('QAA')).to.equal('qaa..qtz');
+                        expect(MapPrivateUseToRegistered('qaz')).to.equal('qaa..qtz');
+                        expect(MapPrivateUseToRegistered('Qha')).to.equal('qaa..qtz');
+                        expect(MapPrivateUseToRegistered('qtz')).to.equal('qaa..qtz');
                     });
             });
     });

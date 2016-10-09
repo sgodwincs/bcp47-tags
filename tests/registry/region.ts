@@ -6,7 +6,8 @@ import * as chai from 'chai';
 
 // Internal.
 
-import { IsPrivateUse, IsPrivateUseRange, IsRegistered, IsValid, IsWellFormed } from '../../source/registry/region';
+import { IsPrivateUse, IsPrivateUseRange, IsRegistered,
+         IsValid, IsWellFormed, MapPrivateUseToRegistered } from '../../source/registry/region';
 
 /* Test body. */
 
@@ -225,6 +226,31 @@ describe('Subtag - Region',
                                 expect(IsWellFormed(region)).to.equal(!IsPrivateUseRange(region),
                                        `Expected "${region}" to${IsPrivateUseRange(region) ? '' : ' not'} be well-formed`);
                             });
+                    });
+            });
+
+        describe('.MapPrivateUseToRegistered',
+            () =>
+            {
+                it('should map the subtag to the correct registered private use subtag',
+                    () =>
+                    {
+                        expect(MapPrivateUseToRegistered('')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('qm..qz')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('xa..xz')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('00')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('us')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('US')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('abc')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('zzz')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('aa')).to.equal('AA');
+                        expect(MapPrivateUseToRegistered('AA')).to.equal('AA');
+                        expect(MapPrivateUseToRegistered('qm')).to.equal('QM..QZ');
+                        expect(MapPrivateUseToRegistered('QO')).to.equal('QM..QZ');
+                        expect(MapPrivateUseToRegistered('qz')).to.equal('QM..QZ');
+                        expect(MapPrivateUseToRegistered('xa')).to.equal('XA..XZ');
+                        expect(MapPrivateUseToRegistered('xt')).to.equal('XA..XZ');
+                        expect(MapPrivateUseToRegistered('zz')).to.equal('ZZ');
                     });
             });
     });

@@ -53,12 +53,7 @@ const wellFormedRegExp: RegExp = /^(?:[a-zA-Z]{2}|[0-9]{3})$/;
  */
 export function IsPrivateUse(region: string): boolean
 {
-    region = region.toLowerCase();
-    return region.length === 2 &&
-           (region === 'aa' ||
-           (region >= 'qm' && region <= 'qz') ||
-           (region >= 'xa' && region <= 'xz') ||
-           region === 'zz');
+    return MapPrivateUseToRegistered(region) !== null;
 }
 
 /**
@@ -128,4 +123,45 @@ export function IsWellFormed(region: string, options: IsWellFormedOptions = { })
     }
 
     return options.followsCaseConventions ? followsCaseConventionsRegExp.test(region) : wellFormedRegExp.test(region);
+};
+
+/**
+ * Returns the region subtag string that is registered private use in the
+ * [IANA language Subtag Registry](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) in the case where the given
+ * region subtag string is private use. If the given region subtag string is not private use, this will return `null`. Note that the returned strings
+ * will follow case conventions as defined for a region subtag string.
+ *
+ * @param region The subtag string to map to the registered private use subtag string.
+ * @returns Returns the corresponding registered region subtag string or `null` if it is not private use.
+ */
+export function MapPrivateUseToRegistered(region: string): null | string
+{
+    region = region.toLowerCase();
+
+    if (region.length !== 2)
+    {
+        return null;
+    }
+
+    if (region === 'aa')
+    {
+        return 'AA';
+    }
+
+    if (region >= 'qm' && region <= 'qz')
+    {
+        return 'QM..QZ';
+    }
+
+    if (region >= 'xa' && region <= 'xz')
+    {
+        return 'XA..XZ';
+    }
+
+    if (region === 'zz')
+    {
+        return 'ZZ';
+    }
+
+    return null;
 };

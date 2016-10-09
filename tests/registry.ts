@@ -7,7 +7,7 @@ import * as chai from 'chai';
 // Internal.
 
 import { IsGrandfatheredTag, IsIrregularGrandfatheredTag, IsRegularGrandfatheredTag, IsTagWellFormed,
-         IsSubtagPrivateUse, IsSubtagRegistered, IsSubtagValid, IsSubtagWellFormed } from '../source/registry';
+         IsSubtagPrivateUse, IsSubtagRegistered, IsSubtagValid, IsSubtagWellFormed, MapPrivateUseToRegistered} from '../source/registry';
 
 /* Test body. */
 
@@ -144,6 +144,23 @@ describe('Registry',
                         expect(IsSubtagWellFormed('script', 'latn')).to.equal(true);
                         expect(IsSubtagWellFormed('singleton', 'u')).to.equal(true);
                         expect(IsSubtagWellFormed('variant', '1606nict')).to.equal(true);
+                    });
+            });
+
+        describe('.MapPrivateUseToRegistered',
+            () =>
+            {
+                it('should map the subtag to the correct registered private use subtag',
+                    () =>
+                    {
+                        expect(MapPrivateUseToRegistered('extension', 'ca')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('extlang', 'aao')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('language', 'qab')).to.equal('qaa..qtz');
+                        expect(MapPrivateUseToRegistered('privateuse', 'tag')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('region', 'qy')).to.equal('QM..QZ');
+                        expect(MapPrivateUseToRegistered('script', 'qaab')).to.equal('Qaaa..Qabx');
+                        expect(MapPrivateUseToRegistered('singleton', 'x')).to.equal(null);
+                        expect(MapPrivateUseToRegistered('variant', '1606nict')).to.equal(null);
                     });
             });
     });

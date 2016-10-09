@@ -153,3 +153,29 @@ export function IsWellFormed(language: string, options: IsWellFormedOptions = { 
            wellFormedWithExtendedLanguageRegExp.test(language) :
            wellFormedWithoutExtendedLanguageRegExp.test(language));
 };
+
+/**
+ * Returns the language subtag string that is registered private use in the
+ * [IANA language Subtag Registry](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) in the case where the given
+ * language subtag string is private use. If the given language subtag string is not private use, this will return `null`.  Note that the returned
+ * strings will follow case conventions as defined for a language subtag string.
+ *
+ * @param language The subtag string to map to the registered private use subtag string.
+ * @returns Returns the corresponding registered language subtag string or `null` if it is not private use.
+ */
+export function MapPrivateUseToRegistered(language: string): null | string
+{
+    language = language.toLowerCase();
+
+    if (language.length !== 3)
+    {
+        return null;
+    }
+
+    if (language >= 'qaa' && language <= 'qtz')
+    {
+        return 'qaa..qtz';
+    }
+
+    return null;
+};

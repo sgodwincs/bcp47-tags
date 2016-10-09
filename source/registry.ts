@@ -13,12 +13,15 @@ import { IsRegistered as IsExtendedLanguageRegistered, IsValid as IsExtendedLang
 import { SearchIndex } from './registry/index';
 import { IsPrivateUse as IsLanguagePrivateUse, IsRegistered as IsLanguageRegistered,
          IsValid as IsLanguageValid, IsWellFormed as IsLanguageWellFormed,
-         IsWellFormedOptions as IsLanguageWellFormedOptions } from './registry/language';
+         IsWellFormedOptions as IsLanguageWellFormedOptions,
+         MapPrivateUseToRegistered as MapPrivateUseLanguageToRegistered } from './registry/language';
 import { IsValid as IsPrivateUseValid, IsWellFormed as IsPrivateuseWellFormed } from './registry/privateuse';
 import { IsPrivateUse as IsRegionPrivateUse, IsRegistered as IsRegionRegistered,
-         IsValid as IsRegionValid, IsWellFormed as IsRegionWellFormed } from './registry/region';
+         IsValid as IsRegionValid, IsWellFormed as IsRegionWellFormed,
+         MapPrivateUseToRegistered as MapPrivateUseRegionToRegistered } from './registry/region';
 import { IsPrivateUse as IsScriptPrivateUse, IsRegistered as IsScriptRegistered,
-         IsValid as IsScriptValid, IsWellFormed as IsScriptWellFormed } from './registry/script';
+         IsValid as IsScriptValid, IsWellFormed as IsScriptWellFormed,
+         MapPrivateUseToRegistered as MapPrivateUseScriptToRegistered } from './registry/script';
 import { IsPrivateUseSingleton, IsRegistered as IsSingletonRegistered,
          IsRegisteredOptions as IsSingletonRegisteredOptions, IsValid as IsSingletonValid,
          IsValidOptions as IsSingletonValidOptions, IsWellFormed as IsSingletonWellFormed } from './registry/singleton';
@@ -89,6 +92,21 @@ interface IsSubtagWellFormedMap
     variant: typeof IsVariantWellFormed;
 }
 
+/**
+ * Map interface for mapping private use to registered map functions to their respective values or functions per each type.
+ */
+interface MapPrivateUseToRegisteredMap
+{
+    extension: null;
+    extlang: null;
+    language: typeof MapPrivateUseLanguageToRegistered;
+    privateuse: null;
+    region: typeof MapPrivateUseRegionToRegistered;
+    script: typeof MapPrivateUseScriptToRegistered;
+    singleton: null;
+    variant: null;
+}
+
 // Constants.
 
 // RegExps.
@@ -156,6 +174,18 @@ const isSubtagWellFormedMap: IsSubtagWellFormedMap =
         script: IsScriptWellFormed,
         singleton: IsSingletonWellFormed,
         variant: IsVariantWellFormed
+    };
+
+const mapPrivateUseToRegistered: MapPrivateUseToRegisteredMap =
+    {
+        extension: null,
+        extlang: null,
+        language: MapPrivateUseLanguageToRegistered,
+        privateuse: null,
+        region: MapPrivateUseRegionToRegistered,
+        script: MapPrivateUseScriptToRegistered,
+        singleton: null,
+        variant: null
     };
 
 // General tag functions.
@@ -267,6 +297,20 @@ export function IsSubtagWellFormed(type: LanguageSubtagType,
                                    options?: IsExtensionWellFormedOptions | IsLanguageWellFormedOptions): boolean
 {
     return isSubtagWellFormedMap[type](subtag, options);
+};
+
+/**
+ * Returns the subtag string that is registered private use for the given type. Note that the returned strings will follow case conventions as defined
+ * for a language subtag string.
+ *
+ * @param type The type of language subtag that should be mapped.
+ * @param subtag The subtag string to map to the registered private use subtag string.
+ * @returns Returns the corresponding registered subtag string or `null` if it is not private use.
+ */
+export function MapPrivateUseToRegistered(type: LanguageSubtagType, subtag: string)
+{
+    const MapPrivateUseToRegisteredFunction: null | Function = mapPrivateUseToRegistered[type];
+    return MapPrivateUseToRegisteredFunction === null ? null : MapPrivateUseToRegisteredFunction(subtag);
 };
 
 // Re-export registry subtag functions.
