@@ -105,7 +105,7 @@ export interface RegistryRecord
     Description: Array<string>;
 
     /**
-     * If defined, contains a primary language subtag defined by ISO 639 as the `'macrolanguage'`` that encompasses this language subtag. This field
+     * If defined, contains a primary language subtag defined by ISO 639 as the `'macrolanguage'` that encompasses this language subtag. This field
      * **must** appear only in records whose [[RegistryRecord.Type]] field is `'language'` or `'extlang'`.
      */
     Macrolanguage?: string;
